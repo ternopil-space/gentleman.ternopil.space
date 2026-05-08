@@ -189,7 +189,7 @@
 	"Cable TV": "Kabel-TV",
 	"Shower and hairdryer": "Dusche und Haartrockner",
 	"Room service": "Zimmerservice",
-	"Free secured parking": "Kostenloser bewachter Parkplatz",
+	"Free secured parking": "Kostenloser gesicherter Parkplatz",
 	"24/7 security": "24/7-Sicherheitsdienst",
 	"Restaurant and bar on-site": "Restaurant und Bar im Haus",
 	"Balcony": "Balkon",
@@ -334,7 +334,6 @@
 	"Wi-Fi, air conditioning, satellite TV": "WLAN, Klimaanlage, Satellitenfernsehen",
 	"Electronic security system": "Elektronisches Sicherheitssystem",
 	"Cosmetic sets": "Kosmetiksets",
-	"Free secured parking": "Kostenloser gesicherter Parkplatz",
 	"Gentleman Restaurant — daily service and events": "Restaurant Gentleman — täglicher Betrieb und Veranstaltungen",
 	"Ukrainian and European cuisine": "Ukrainische und europäische Küche",
 	"Breakfasts, business lunches, dinners": "Frühstücke, Geschäftsessen, Abendessen",
@@ -368,7 +367,7 @@
 	"Hotel Rules": "Hotelordnung",
 	"1. General Provisions": "1. Allgemeine Bestimmungen",
 	"1.1. These Rules govern the basic requirements for using the Hotel's services operating in Ukraine in the field of providing temporary accommodation (hotel services) to Guests, and regulate relations between Guests, Clients, and the Hotel as the provider of such services.": "1.1. Diese Regeln legen die grundlegenden Anforderungen für die Nutzung der Dienstleistungen des Hotels fest, das in der Ukraine im Bereich der vorübergehenden Unterkunft (Hoteldienstleistungen) für Gäste tätig ist, und regeln die Beziehungen zwischen Gästen, Kunden und dem Hotel als Dienstleister.",
-	"1.2. The Hotel's business activities are governed by the current legislation of Ukraine. In its operations, the Hotel is guided in particular by the \"Rules for the use of hotels and similar accommodation facilities and provision of hotel services,\" approved by the order of the State Tourism Administration of Ukraine dated 16.03.2004 No. 19, and internal documents and rules.": "1.2. Die Geschäftstätigkeit des Hotels unterliegt der geltenden Gesetzgebung der Ukraine. In seiner Tätigkeit orientiert sich das Hotel insbesondere an den „Regeln für die Nutzung von Hotels und ähnlichen Beherbergungsbetrieben und die Erbringung von Hoteldienstleistungen", genehmigt durch den Erlass der Staatlichen Tourismusverwaltung der Ukraine vom 16.03.2004 Nr. 19, sowie an internen Dokumenten und Regelungen.",
+	"1.2. The Hotel's business activities are governed by the current legislation of Ukraine. In its operations, the Hotel is guided in particular by the \"Rules for the use of hotels and similar accommodation facilities and provision of hotel services,\" approved by the order of the State Tourism Administration of Ukraine dated 16.03.2004 No. 19, and internal documents and rules.": "1.2. Die Geschäftstätigkeit des Hotels unterliegt der geltenden Gesetzgebung der Ukraine. In seiner Tätigkeit orientiert sich das Hotel insbesondere an den „Regeln für die Nutzung von Hotels und ähnlichen Beherbergungsbetrieben und die Erbringung von Hoteldienstleistungen\", genehmigt durch den Erlass der Staatlichen Tourismusverwaltung der Ukraine vom 16.03.2004 Nr. 19, sowie an internen Dokumenten und Regelungen.",
 	"2. Check-in Procedure": "2. Eincheckvorgang",
 	"2.1. A room (place) is provided to the Guest upon presentation of a passport or other identity document (Ukrainian citizen passport, international passport, diplomatic or service passport, seafarer's identity document, crew member certificate, residence permit for a person living in Ukraine who is not a Ukrainian citizen, foreign national's passport or its equivalent and a visa to stay in Ukraine (unless otherwise provided by current bilateral agreements), birth certificate for minors under 16, driver's license, for military personnel — personal ID or military card, an ID issued at the consumer's place of work, etc.), and completion of a Guest registration card.": "2.1. Ein Zimmer (Platz) wird dem Gast nach Vorlage eines Reisepasses oder eines anderen Identitätsdokuments (ukrainischer Staatsangehörigenpass, internationaler Reisepass, Diplomaten- oder Dienstpass, Seemannsausweis, Besatzungsmitgliedszertifikat, Aufenthaltserlaubnis für in der Ukraine lebende Nicht-Staatsbürger, Ausländerpass oder Äquivalent mit Einreisevisum für die Ukraine (sofern nicht durch aktuelle bilaterale Abkommen anders geregelt), Geburtsurkunde für Minderjährige unter 16 Jahren, Führerschein, für Militärpersonal — persönlicher Ausweis oder Militärausweis, am Arbeitsplatz ausgestellter Ausweis usw.) und nach Ausfüllen der Gästeregistrierungskarte zur Verfügung gestellt.",
 	"2.2. If vacancies are available and at the Guest's request, a room for two or more persons may be provided with full payment of the room rate according to the Hotel's established tariffs for double and multiple occupancy.": "2.2. Wenn Zimmer verfügbar sind und auf Wunsch des Gastes kann ein Zimmer für zwei oder mehr Personen mit vollständiger Bezahlung des Zimmerpreises gemäß den festgelegten Tarifen des Hotels für Doppel- und Mehrfachbelegung bereitgestellt werden.",
@@ -434,5 +433,73 @@
 	"Pets permitted at the Hotel are cats and non-fighting-breed dogs weighing up to 10 kg. The Hotel reserves the right to refuse check-in to a Guest with a pet.": "Im Hotel sind Katzen und Hunde nicht kämpfender Rassen mit einem Gewicht bis zu 10 kg erlaubt. Das Hotel behält sich das Recht vor, einem Gast mit Haustier den Check-in zu verweigern.",
 	"No more than one pet is allowed per room. The pet stay fee is 200 UAH per night. Guests arriving with pets must have a pet passport and a veterinary certificate with a record of all vaccinations.": "Pro Zimmer ist höchstens ein Haustier erlaubt. Die Übernachtungsgebühr für Haustiere beträgt 200 UAH pro Nacht. Gäste, die mit Haustieren anreisen, müssen einen Tierausweis und ein Veterinärzertifikat mit Aufzeichnung aller Impfungen mitführen.",
 	"5.4. Air Raid Alert Notification:": "5.4. Luftalarm-Benachrichtigung:",
-	"I have been informed about the hotel's internal notification system in the event of an air raid alert and informed about the location of the shelter.": "Ich wurde über das interne Benachrichtigungssystem des Hotels im Falle eines Luftalarms informiert und über den Standort des Schutzraums unterrichtet."
+	"I have been informed about the hotel's internal notification system in the event of an air raid alert and informed about the location of the shelter.": "Ich wurde über das interne Benachrichtigungssystem des Hotels im Falle eines Luftalarms informiert und über den Standort des Schutzraums unterrichtet.",
+	"articles": {
+		"hotel-near-ternopil-comfortable-stay": {
+			"title": "So wählen Sie ein Hotel bei Ternopil für einen komfortablen Aufenthalt",
+			"summary": "Ein praktischer Leitfaden zur Wahl eines bequemen Hotels bei Ternopil mit Fokus auf Lage, Parkplatz, Zimmer, Restaurant, Komfort und Sicherheit.",
+			"category": "Hotel",
+			"publishedAt": "Mai 2026",
+			"body": [
+				"Bei der Wahl eines Hotels bei Ternopil ist die Lage einer der wichtigsten Punkte. Ein gutes Hotel sollte leicht erreichbar sein, Gästen mit Auto Komfort bieten und sowohl für Stadtbesuche als auch für ruhige Erholung außerhalb des Zentrums passen.",
+				"Komfort entsteht durch Details: saubere Zimmer, zuverlässiges Wi‑Fi, Klimaanlage, bewachter Parkplatz, aufmerksamer Service und die Möglichkeit, direkt im Komplex zu essen. Ein Hotel mit eigenem Restaurant und Bar ist besonders praktisch für Familien, Paare und Geschäftsreisende.",
+				"Das Hotel Gentleman verbindet Unterkunft, Restaurantservice, Parkplatz und zusätzliche Entspannungsmöglichkeiten an einem Ort und ist damit eine bequeme Wahl für Gäste, die Komfort, Ruhe und vollständigen Service schätzen."
+			]
+		},
+		"sauna-and-hammam-weekend-relax": {
+			"title": "Sauna und Hammam: die perfekte Entspannung nach einer arbeitsreichen Woche",
+			"summary": "Erfahren Sie, warum Sauna und Hammam ideal für Erholung, ruhige Abende, private Entspannung und ein komplettes Hotel- und Restauranterlebnis sind.",
+			"category": "Spa",
+			"publishedAt": "Mai 2026",
+			"body": [
+				"Nach einer arbeitsreichen Woche brauchen Körper und Geist eine einfache Möglichkeit, zur Ruhe zu kommen. Sauna oder Hammam können einen gewöhnlichen Abend in ein echtes Entspannungsritual mit Wärme, Ruhe und Abstand vom Alltag verwandeln.",
+				"Diese Art der Erholung ist besonders angenehm, wenn sie mit einem Restaurantbesuch oder einem Hotelaufenthalt kombiniert wird. Gäste können eine ruhige Atmosphäre genießen, sich nach Reise oder Arbeit erholen und Zeit mit Freunden, Familie oder dem Partner verbringen.",
+				"Im Hotel Gentleman ergänzen Sauna und Hammam das Hotel- und Restauranterlebnis und schaffen einen bequemen Ort für Erholung, Wohlbefinden und private Entspannung bei Ternopil."
+			]
+		},
+		"business-trip-hotel-room-essentials": {
+			"title": "Hotel für Geschäftsreisen: Was jedes Zimmer bieten sollte",
+			"summary": "Eine kurze Checkliste für Geschäftsreisende: zuverlässiges Wi‑Fi, ruhige Zimmer, Klimaanlage, bewachter Parkplatz, Sicherheit, Komfort und schnelle Anbindung an die Stadt.",
+			"category": "Hotel",
+			"publishedAt": "Mai 2026",
+			"body": [
+				"Für Geschäftsreisende ist ein Hotelzimmer mehr als ein Schlafplatz. Es sollte Arbeit, Erholung und Vorbereitung auf den nächsten Tag unterstützen. Zuverlässiges Wi‑Fi, eine ruhige Umgebung, gutes Licht und Klimatisierung sind entscheidend.",
+				"Sicherheit und Bequemlichkeit sind ebenso wichtig. Bewachter Parkplatz, klarer Service, Restaurant oder Bar auf dem Gelände und schneller Zugang zur Stadt helfen Gästen, Zeit zu sparen und Stress während der Geschäftsreise zu vermeiden.",
+				"Das Hotel Gentleman bietet wichtige Elemente für Geschäftsreisende: komfortable Zimmer, Internetzugang, sicheren Parkplatz, Restaurantservice und eine ruhige Lage bei Ternopil."
+			]
+		},
+		"romantic-weekend-near-ternopil": {
+			"title": "Romantisches Wochenende bei Ternopil: Hotel, Abendessen und Entspannung",
+			"summary": "Eine Idee für eine ruhige Auszeit zu zweit bei Ternopil mit komfortablem Zimmer, Restaurantabendessen, Sauna oder Hammam und entspannter Atmosphäre.",
+			"category": "Reisen",
+			"publishedAt": "Mai 2026",
+			"body": [
+				"Ein romantisches Wochenende erfordert nicht immer eine lange Reise. Manchmal reichen ein komfortables Hotel in Stadtnähe, ein schönes Abendessen und eine ruhige Atmosphäre, um Zeit nur zu zweit zu schaffen.",
+				"Die beste kurze Auszeit verbindet einfache Freuden: ein gemütliches Zimmer, Restaurantservice, einen langsamen Abend, Sauna oder Hammam und keinen Zeitdruck. Dieses Format passt gut zu Jahrestagen, Geburtstagen oder spontanen Wochenenden.",
+				"Das Hotel Gentleman bei Ternopil bietet Paaren eine passende Umgebung, um zu entspannen, zu Abend zu essen und ein ruhiges Wochenende in einem eleganten Hotel- und Restaurantkomplex zu verbringen."
+			]
+		}
+	},
+	"How to choose a hotel near Ternopil for a comfortable stay": "So wählen Sie ein Hotel bei Ternopil für einen komfortablen Aufenthalt",
+	"A practical guide to choosing a convenient hotel near Ternopil, with attention to location, parking, rooms, restaurant service, comfort and safety.": "Ein praktischer Leitfaden zur Wahl eines bequemen Hotels bei Ternopil mit Fokus auf Lage, Parkplatz, Zimmer, Restaurant, Komfort und Sicherheit.",
+	"May 2026": "Mai 2026",
+	"When choosing a hotel near Ternopil, location is one of the first things to consider. A good hotel should be easy to reach, comfortable for guests arriving by car and convenient for both city visits and quiet rest outside the busy center.": "Bei der Wahl eines Hotels bei Ternopil ist die Lage einer der wichtigsten Punkte. Ein gutes Hotel sollte leicht erreichbar sein, Gästen mit Auto Komfort bieten und sowohl für Stadtbesuche als auch für ruhige Erholung außerhalb des Zentrums passen.",
+	"Comfort also depends on the details: clean rooms, reliable Wi‑Fi, air conditioning, secure parking, helpful service and access to food without needing to leave the complex. A hotel with its own restaurant and bar is especially practical for families, couples and business travelers.": "Komfort entsteht durch Details: saubere Zimmer, zuverlässiges Wi‑Fi, Klimaanlage, bewachter Parkplatz, aufmerksamer Service und die Möglichkeit, direkt im Komplex zu essen. Ein Hotel mit eigenem Restaurant und Bar ist besonders praktisch für Familien, Paare und Geschäftsreisende.",
+	"Hotel Gentleman combines accommodation, restaurant service, parking and additional relaxation options in one place, making it a convenient choice for guests who value comfort, calm atmosphere and complete service.": "Das Hotel Gentleman verbindet Unterkunft, Restaurantservice, Parkplatz und zusätzliche Entspannungsmöglichkeiten an einem Ort und ist damit eine bequeme Wahl für Gäste, die Komfort, Ruhe und vollständigen Service schätzen.",
+	"Sauna and hammam: the perfect way to relax after a busy week": "Sauna und Hammam: die perfekte Entspannung nach einer arbeitsreichen Woche",
+	"Discover why sauna and hammam time is ideal for recovery, calm evenings, private relaxation and a complete hotel-and-restaurant experience.": "Erfahren Sie, warum Sauna und Hammam ideal für Erholung, ruhige Abende, private Entspannung und ein komplettes Hotel- und Restauranterlebnis sind.",
+	"After a busy week, the body and mind need a simple way to slow down. A sauna or hammam can turn an ordinary evening into a full relaxation ritual with warmth, calm and time away from daily tasks.": "Nach einer arbeitsreichen Woche brauchen Körper und Geist eine einfache Möglichkeit, zur Ruhe zu kommen. Sauna oder Hammam können einen gewöhnlichen Abend in ein echtes Entspannungsritual mit Wärme, Ruhe und Abstand vom Alltag verwandeln.",
+	"This type of rest is especially pleasant when it is combined with a restaurant visit or a stay at the hotel. Guests can enjoy a quiet atmosphere, recover after travel or work and spend time with friends, family or a partner.": "Diese Art der Erholung ist besonders angenehm, wenn sie mit einem Restaurantbesuch oder einem Hotelaufenthalt kombiniert wird. Gäste können eine ruhige Atmosphäre genießen, sich nach Reise oder Arbeit erholen und Zeit mit Freunden, Familie oder dem Partner verbringen.",
+	"At Hotel Gentleman, sauna and hammam services complement the hotel and restaurant experience, creating a convenient place for rest, wellness and private relaxation near Ternopil.": "Im Hotel Gentleman ergänzen Sauna und Hammam das Hotel- und Restauranterlebnis und schaffen einen bequemen Ort für Erholung, Wohlbefinden und private Entspannung bei Ternopil.",
+	"Hotel for a business trip: what every room should include": "Hotel für Geschäftsreisen: Was jedes Zimmer bieten sollte",
+	"A short checklist for business travelers: reliable Wi‑Fi, quiet rooms, air conditioning, guarded parking, safety, comfort and quick access to the city.": "Eine kurze Checkliste für Geschäftsreisende: zuverlässiges Wi‑Fi, ruhige Zimmer, Klimaanlage, bewachter Parkplatz, Sicherheit, Komfort und schnelle Anbindung an die Stadt.",
+	"For business travelers, a hotel room is more than a place to sleep. It should support work, rest and preparation for the next day. Reliable Wi‑Fi, a calm environment, good lighting and climate control are essential.": "Für Geschäftsreisende ist ein Hotelzimmer mehr als ein Schlafplatz. Es sollte Arbeit, Erholung und Vorbereitung auf den nächsten Tag unterstützen. Zuverlässiges Wi‑Fi, eine ruhige Umgebung, gutes Licht und Klimatisierung sind entscheidend.",
+	"Security and convenience are just as important. Guarded parking, clear service, a restaurant or bar on the territory and quick access to the city help guests save time and avoid unnecessary stress during a business trip.": "Sicherheit und Bequemlichkeit sind ebenso wichtig. Bewachter Parkplatz, klarer Service, Restaurant oder Bar auf dem Gelände und schneller Zugang zur Stadt helfen Gästen, Zeit zu sparen und Stress während der Geschäftsreise zu vermeiden.",
+	"Hotel Gentleman offers the key elements business guests usually need: comfortable rooms, internet access, secure parking, restaurant service and a quiet location near Ternopil.": "Das Hotel Gentleman bietet wichtige Elemente für Geschäftsreisende: komfortable Zimmer, Internetzugang, sicheren Parkplatz, Restaurantservice und eine ruhige Lage bei Ternopil.",
+	"Romantic weekend near Ternopil: hotel, dinner and relaxation": "Romantisches Wochenende bei Ternopil: Hotel, Abendessen und Entspannung",
+	"An idea for a calm couple’s getaway near Ternopil with a comfortable room, restaurant dinner, sauna or hammam and a peaceful atmosphere.": "Eine Idee für eine ruhige Auszeit zu zweit bei Ternopil mit komfortablem Zimmer, Restaurantabendessen, Sauna oder Hammam und entspannter Atmosphäre.",
+	"Travel": "Reisen",
+	"A romantic weekend does not always require a long trip. Sometimes a comfortable hotel near the city, a beautiful dinner and a calm atmosphere are enough to create time just for two.": "Ein romantisches Wochenende erfordert nicht immer eine lange Reise. Manchmal reichen ein komfortables Hotel in Stadtnähe, ein schönes Abendessen und eine ruhige Atmosphäre, um Zeit nur zu zweit zu schaffen.",
+	"The best short getaway combines several simple pleasures: a cozy room, restaurant service, a slow evening, sauna or hammam and no rush. This format works well for anniversaries, birthdays or spontaneous weekends.": "Die beste kurze Auszeit verbindet einfache Freuden: ein gemütliches Zimmer, Restaurantservice, einen langsamen Abend, Sauna oder Hammam und keinen Zeitdruck. Dieses Format passt gut zu Jahrestagen, Geburtstagen oder spontanen Wochenenden.",
+	"Hotel Gentleman near Ternopil offers a convenient setting for couples who want to relax, enjoy dinner and spend a peaceful weekend in an elegant hotel-and-restaurant complex.": "Das Hotel Gentleman bei Ternopil bietet Paaren eine passende Umgebung, um zu entspannen, zu Abend zu essen und ein ruhiges Wochenende in einem eleganten Hotel- und Restaurantkomplex zu verbringen."
 }

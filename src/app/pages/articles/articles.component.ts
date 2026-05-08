@@ -1,9 +1,10 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { TranslatePipe } from '../../shared/translate.pipe';
 import { ArticleService } from '../../feature/article/article.service';
 
 @Component({
-	imports: [TranslatePipe],
+	imports: [RouterLink, TranslatePipe],
 	templateUrl: './articles.component.html',
 	styleUrl: './articles.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,

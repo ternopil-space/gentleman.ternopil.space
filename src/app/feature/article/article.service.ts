@@ -2,10 +2,14 @@ import { Injectable, signal } from '@angular/core';
 import articlesData from '../../../data/articles.json';
 import { Article } from './article.interface';
 
-type RawArticle = Partial<Article> &
-	Record<string, string | number | null | undefined>;
+type RawArticle = Partial<Omit<Article, 'body'>> & {
+	body?: unknown;
+	[key: string]: unknown;
+};
 
 const _fallbackArticles: Article[] = _normalizeArticles(articlesData as RawArticle[]);
+
+export const articleSlugs = _fallbackArticles.map((article) => article.slug);
 
 @Injectable({
 	providedIn: 'root',
@@ -25,6 +29,10 @@ export class ArticleService {
 
 	finishLoading() {
 		this.isLoading.set(false);
+	}
+
+	findArticleBySlug(slug: string | null | undefined) {
+		return this.articles().find((article) => article.slug === slug) ?? null;
 	}
 }
 
@@ -52,10 +60,19 @@ function _normalizeArticle(article: RawArticle, index: number): Article | null {
 		summary,
 		category: _stringOrFallback(article.category ?? article['tag'], 'Article'),
 		publishedAt: _stringOrFallback(article.publishedAt ?? article['date']),
+		body: _normalizeBody(article.body),
 	};
 }
 
-function _slugOrFallback(value: string | number | null | undefined, index: number): string {
+function _normalizeBody(value: unknown): string[] {
+	return Array.isArray(value)
+		? value
+				.map((paragraph) => _stringOrFallback(paragraph as string | number | null | undefined))
+				.filter(Boolean)
+		: [];
+}
+
+function _slugOrFallback(value: unknown, index: number): string {
 	if (typeof value === 'number' && Number.isFinite(value)) {
 		return `article-${value}`;
 	}
@@ -68,7 +85,7 @@ function _slugOrFallback(value: string | number | null | undefined, index: numbe
 	return normalized || `article-${index + 1}`;
 }
 
-function _stringOrFallback(value: string | number | null | undefined, fallback = ''): string {
+function _stringOrFallback(value: unknown, fallback = ''): string {
 	if (typeof value === 'number' && Number.isFinite(value)) {
 		return String(value);
 	}
