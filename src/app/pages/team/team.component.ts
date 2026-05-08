@@ -1,11 +1,11 @@
-import { NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { TranslateDirective } from '@wawjs/ngx-translate';
 import { ProfileService } from '../../feature/profile/profile.service';
 import { TranslatePipe } from '../../shared/translate.pipe';
+import { ImageComponent } from '../../components/image/image.component';
 
 @Component({
-	imports: [NgOptimizedImage, TranslateDirective, TranslatePipe],
+	imports: [TranslateDirective, TranslatePipe, ImageComponent],
 	templateUrl: './team.component.html',
 	styleUrl: './team.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,

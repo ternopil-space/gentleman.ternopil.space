@@ -14,8 +14,8 @@ export class NavigationComponent {
 		{ label: 'Menu', icon: 'restaurant_menu', route: '/menu' },
 		{ label: 'Favorites', icon: 'favorite', route: '/favorites' },
 
-		{ label: 'Rooms', icon: 'hotel', route: '/rooms' },
-		{ label: 'Spa', icon: 'spa', route: '/spa' },
+		{ label: 'Gallery', icon: 'photo_library', route: '/gallery' },
+		{ label: 'Events', icon: 'event', route: '/events' },
 
 		{ label: 'Team', icon: 'group', route: '/team' },
 		{ label: 'Jobs', icon: 'work', route: '/jobs' },
@@ -23,13 +23,12 @@ export class NavigationComponent {
 		{ label: 'Articles', icon: 'article', route: '/articles' },
 		{ label: 'Reviews', icon: 'rate_review', route: '/reviews' },
 
-		{ label: 'Events', icon: 'event', route: '/events' },
 		{ label: 'Quests', icon: 'explore', route: '/quests' },
-
 		{ label: 'Sales', icon: 'sell', route: '/sales' },
-		{ label: 'Products', icon: 'shopping_bag', route: '/products' },
 
+		{ label: 'Products', icon: 'shopping_bag', route: '/products' },
 		{ label: 'Hotel Rules', icon: 'gavel', route: '/rules' },
+
 		{ label: 'About', icon: 'info', route: '/about' },
 	];
 }

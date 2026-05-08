@@ -38,19 +38,11 @@
 					<figure
 						class="overflow-hidden rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)]"
 					>
-						<button
-							class="gallery-trigger block w-full cursor-zoom-in"
-							[attr.aria-label]="('Open photo in full screen' | translate) + ': ' + (exhibit.alt | translate)"
-							(click)="openPhoto(exhibit)"
-							type="button"
-						>
-							<img
-								class="gallery-photo h-72 w-full object-cover sm:h-80"
-								[attr.alt]="exhibit.alt | translate"
-								[src]="exhibit.src"
-								loading="lazy"
-							/>
-						</button>
+						<app-image
+							[src]="exhibit.src"
+							[alt]="exhibit.alt | translate"
+							imgClass="h-72 w-full object-cover sm:h-80"
+						/>
 					</figure>
 				}
 			</div>
@@ -77,16 +69,4 @@
 		</section>
 	}
 
-	@if (selectedExhibit(); as exhibit) {
-		<div
-			class="fullscreen-backdrop fixed inset-0 z-50 flex cursor-zoom-out items-center justify-center bg-black/88 p-4"
-		>
-			<img
-				class="fullscreen-photo max-h-full max-w-full rounded-[1rem] object-contain"
-				[attr.alt]="exhibit.alt | translate"
-				[src]="exhibit.src"
-				(click)="closePhoto()"
-			/>
-		</div>
-	}
 </main>

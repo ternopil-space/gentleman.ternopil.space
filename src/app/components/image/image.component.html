@@ -1,0 +1,30 @@
+<button
+	class="image-trigger block w-full cursor-zoom-in"
+	type="button"
+	[attr.aria-label]="('View full image' | translate) + ': ' + alt()"
+	(click)="open()"
+>
+	<img
+		[class]="imgClass()"
+		[src]="src()"
+		[attr.alt]="alt()"
+		[attr.loading]="loading()"
+		[attr.width]="width() ?? null"
+		[attr.height]="height() ?? null"
+	/>
+</button>
+
+@if (isOpen()) {
+	<div
+		class="fullscreen-backdrop fixed inset-0 z-50 flex cursor-zoom-out items-center justify-center bg-black/88 p-4"
+		role="dialog"
+		[attr.aria-label]="alt()"
+		(click)="close()"
+	>
+		<img
+			class="fullscreen-photo max-h-full max-w-full rounded-[1rem] object-contain"
+			[src]="src()"
+			[attr.alt]="alt()"
+		/>
+	</div>
+}

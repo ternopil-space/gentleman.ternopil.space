@@ -20,12 +20,12 @@
 						class="overflow-hidden rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)]"
 					>
 						@if (profile.image) {
-							<img
-								class="h-64 w-full object-cover"
-								[ngSrc]="profile.image"
+							<app-image
+								[src]="profile.image"
 								[alt]="profile.name | translate"
-								width="640"
-								height="640"
+								imgClass="h-64 w-full object-cover"
+								[width]="640"
+								[height]="640"
 							/>
 						}
 
