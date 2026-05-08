@@ -4,52 +4,50 @@
 	<section class="overflow-hidden rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]">
 		<div class="border-b border-[var(--c-border)] px-4 py-5 sm:px-6 sm:py-6">
 			<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
-				Джентльмен
+				Gentleman
 			</p>
 			<h1 class="mt-2 text-[1.8rem] font-semibold leading-9 text-[var(--c-text-secondary)]">
-				Сауна та хамам
+				{{ 'Sauna and Hammam' | translate }}
 			</h1>
 			<p class="mt-2 max-w-[42rem] text-sm leading-6 text-[var(--c-text-muted)]">
-				GENTLEMAN підготував всі необхідні умови і послуги для Вашого приголомшливого відпочинку.
-				Персонал комплексу подбає про Ваше дозвілля і зробить відпочинок незабутнім. У нас Ви
-				можете попаритися в турецькій і фінській сауні.
+				{{ 'GENTLEMAN has prepared all the necessary conditions and services for your amazing rest. The complex staff will take care of your leisure time and make your stay unforgettable. Here you can enjoy the Turkish and Finnish sauna.' | translate }}
 			</p>
 		</div>
 		<nav
 			class="flex flex-wrap gap-2 px-4 py-4 sm:px-6"
-			aria-label="Розділи сторінки"
+			[attr.aria-label]="'Page sections' | translate"
 		>
 			<a
 				href="#hamam"
 				class="flex flex-col rounded-[0.8rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-4 py-3 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
 			>
-				<span class="text-sm font-semibold text-[var(--c-text-secondary)]">ХАМАМ</span>
-				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">Новий корпус</span>
+				<span class="text-sm font-semibold text-[var(--c-text-secondary)]">{{ 'HAMMAM' | translate }}</span>
+				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">{{ 'New Building' | translate }}</span>
 			</a>
 			<a
 				href="#suha"
 				class="flex flex-col rounded-[0.8rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-4 py-3 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
 			>
-				<span class="text-sm font-semibold text-[var(--c-text-secondary)]">Суха сауна</span>
-				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">Новий корпус</span>
+				<span class="text-sm font-semibold text-[var(--c-text-secondary)]">{{ 'Dry Sauna' | translate }}</span>
+				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">{{ 'New Building' | translate }}</span>
 			</a>
 			<a
 				href="#mokra"
 				class="flex flex-col rounded-[0.8rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-4 py-3 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
 			>
-				<span class="text-sm font-semibold text-[var(--c-text-secondary)]">Мокра сауна</span>
-				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">Новий корпус</span>
+				<span class="text-sm font-semibold text-[var(--c-text-secondary)]">{{ 'Wet Sauna' | translate }}</span>
+				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">{{ 'New Building' | translate }}</span>
 			</a>
 		</nav>
 	</section>
 
-	<!-- ХАМАМ -->
+	<!-- HAMMAM -->
 	<section
 		id="hamam"
 		class="overflow-hidden rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
 	>
 		<div class="border-b border-[var(--c-border)] px-4 py-4 sm:px-6">
-			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">ХАМАМ</h2>
+			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">{{ 'HAMMAM' | translate }}</h2>
 		</div>
 		<div class="grid gap-0 lg:grid-cols-2">
 			<div
@@ -60,29 +58,29 @@
 						<p
 							class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 						>
-							Понеділок — Четвер
+							{{ 'Monday — Thursday' | translate }}
 						</p>
 						<div class="mt-2 space-y-3">
 							<div>
 								<div
 									class="flex items-baseline justify-between gap-4 border-b border-[var(--c-border)] pb-2"
 								>
-									<span class="text-sm text-[var(--c-text-primary)]">До 17:00</span>
+									<span class="text-sm text-[var(--c-text-primary)]">{{ 'Before 17:00' | translate }}</span>
 									<span class="font-semibold text-[var(--c-primary)]">700 грн/год</span>
 								</div>
 								<p class="mt-1 text-xs text-[var(--c-text-muted)]">
-									Більше 8-ми осіб — доплата 60 грн/особа за годину
+									{{ 'More than 8 people — surcharge 60 UAH/person per hour' | translate }}
 								</p>
 							</div>
 							<div>
 								<div
 									class="flex items-baseline justify-between gap-4 border-b border-[var(--c-border)] pb-2"
 								>
-									<span class="text-sm text-[var(--c-text-primary)]">Після 17:00</span>
+									<span class="text-sm text-[var(--c-text-primary)]">{{ 'After 17:00' | translate }}</span>
 									<span class="font-semibold text-[var(--c-primary)]">950 грн/год</span>
 								</div>
 								<p class="mt-1 text-xs text-[var(--c-text-muted)]">
-									Більше 8-ми осіб — доплата 60 грн/особа за годину
+									{{ 'More than 8 people — surcharge 60 UAH/person per hour' | translate }}
 								</p>
 							</div>
 						</div>
@@ -91,18 +89,18 @@
 						<p
 							class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 						>
-							П'ятниця — Неділя
+							{{ 'Friday — Sunday' | translate }}
 						</p>
 						<div class="mt-2">
 							<div>
 								<div
 									class="flex items-baseline justify-between gap-4 border-b border-[var(--c-border)] pb-2"
 								>
-									<span class="text-sm text-[var(--c-text-primary)]">Цілодобово</span>
+									<span class="text-sm text-[var(--c-text-primary)]">{{ 'Around the clock' | translate }}</span>
 									<span class="font-semibold text-[var(--c-primary)]">950 грн/год</span>
 								</div>
 								<p class="mt-1 text-xs text-[var(--c-text-muted)]">
-									Більше 8-ми осіб — доплата 60 грн/особа за годину
+									{{ 'More than 8 people — surcharge 60 UAH/person per hour' | translate }}
 								</p>
 							</div>
 						</div>
@@ -110,16 +108,14 @@
 				</div>
 				<div class="space-y-3 text-sm leading-6 text-[var(--c-text-muted)]">
 					<p>
-						Хамам — традиційна частинка південної культури. Це турецька лазня, підлога і лежаки
-						якої виготовлені з мармуру. Відвідування хамаму покращує Ваше самопочуття,
-						стимулюючи обмінні процеси в організмі. Турецька сауна розрахована на 8 осіб.
+						{{ 'Hammam is a traditional part of southern culture. It is a Turkish bath whose floor and loungers are made of marble. Visiting the hammam improves your well-being by stimulating metabolic processes in the body. The Turkish sauna accommodates 8 people.' | translate }}
 					</p>
 					<ul class="space-y-1">
-						<li>— невисока температура 45–55°С</li>
-						<li>— висока вологість 100%</li>
-						<li>— теплий басейн з гідромасажем</li>
-						<li>— кімната відпочинку</li>
-						<li>— контрастні обливні відра</li>
+						<li>— {{ 'Low temperature 45–55°C' | translate }}</li>
+						<li>— {{ 'High humidity 100%' | translate }}</li>
+						<li>— {{ 'Warm pool with hydromassage' | translate }}</li>
+						<li>— {{ 'Rest room' | translate }}</li>
+						<li>— {{ 'Contrast pouring buckets' | translate }}</li>
 					</ul>
 				</div>
 			</div>
@@ -127,7 +123,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9582-300x200.jpg"
-					alt="Хамам — інтер'єр"
+					[attr.alt]="'Hammam — interior' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -135,7 +131,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9583-300x200.jpg"
-					alt="Хамам — мармур"
+					[attr.alt]="'Hammam — marble' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -143,7 +139,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9584-300x200.jpg"
-					alt="Хамам — басейн"
+					[attr.alt]="'Hammam — pool' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -151,7 +147,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9585-300x200.jpg"
-					alt="Хамам — відпочинок"
+					[attr.alt]="'Hammam — relaxation' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -160,20 +156,20 @@
 		</div>
 	</section>
 
-	<!-- Суха сауна -->
+	<!-- Dry Sauna -->
 	<section
 		id="suha"
 		class="overflow-hidden rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
 	>
 		<div class="border-b border-[var(--c-border)] px-4 py-4 sm:px-6">
-			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">Суха сауна</h2>
+			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">{{ 'Dry Sauna' | translate }}</h2>
 		</div>
 		<div class="grid gap-0 lg:grid-cols-2">
 			<div class="grid grid-cols-2 gap-2 border-b border-[var(--c-border)] p-4 lg:border-b-0 lg:border-r">
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9577-300x200.jpg"
-					alt="Суха сауна — парна"
+					[attr.alt]="'Dry sauna — steam room' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -181,7 +177,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9576-300x200.jpg"
-					alt="Суха сауна — піч"
+					[attr.alt]="'Dry sauna — stove' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -189,7 +185,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9575-300x200.jpg"
-					alt="Суха сауна — лежаки"
+					[attr.alt]="'Dry sauna — loungers' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -197,7 +193,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9574-300x200.jpg"
-					alt="Суха сауна — купель"
+					[attr.alt]="'Dry sauna — plunge pool' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -205,7 +201,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9573-300x200.jpg"
-					alt="Суха сауна — кімната відпочинку"
+					[attr.alt]="'Dry sauna — rest room' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -213,7 +209,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9572-300x200.jpg"
-					alt="Суха сауна — деталі"
+					[attr.alt]="'Dry sauna — details' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -225,29 +221,29 @@
 						<p
 							class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 						>
-							Понеділок — Четвер
+							{{ 'Monday — Thursday' | translate }}
 						</p>
 						<div class="mt-2 space-y-3">
 							<div>
 								<div
 									class="flex items-baseline justify-between gap-4 border-b border-[var(--c-border)] pb-2"
 								>
-									<span class="text-sm text-[var(--c-text-primary)]">До 17:00</span>
+									<span class="text-sm text-[var(--c-text-primary)]">{{ 'Before 17:00' | translate }}</span>
 									<span class="font-semibold text-[var(--c-primary)]">450 грн/год</span>
 								</div>
 								<p class="mt-1 text-xs text-[var(--c-text-muted)]">
-									Більше 4-х осіб — доплата 60 грн/особа за годину
+									{{ 'More than 4 people — surcharge 60 UAH/person per hour' | translate }}
 								</p>
 							</div>
 							<div>
 								<div
 									class="flex items-baseline justify-between gap-4 border-b border-[var(--c-border)] pb-2"
 								>
-									<span class="text-sm text-[var(--c-text-primary)]">Після 17:00</span>
+									<span class="text-sm text-[var(--c-text-primary)]">{{ 'After 17:00' | translate }}</span>
 									<span class="font-semibold text-[var(--c-primary)]">550 грн/год</span>
 								</div>
 								<p class="mt-1 text-xs text-[var(--c-text-muted)]">
-									Більше 4-х осіб — доплата 60 грн/особа за годину
+									{{ 'More than 4 people — surcharge 60 UAH/person per hour' | translate }}
 								</p>
 							</div>
 						</div>
@@ -256,18 +252,18 @@
 						<p
 							class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 						>
-							П'ятниця — Неділя
+							{{ 'Friday — Sunday' | translate }}
 						</p>
 						<div class="mt-2">
 							<div>
 								<div
 									class="flex items-baseline justify-between gap-4 border-b border-[var(--c-border)] pb-2"
 								>
-									<span class="text-sm text-[var(--c-text-primary)]">Цілодобово</span>
+									<span class="text-sm text-[var(--c-text-primary)]">{{ 'Around the clock' | translate }}</span>
 									<span class="font-semibold text-[var(--c-primary)]">550 грн/год</span>
 								</div>
 								<p class="mt-1 text-xs text-[var(--c-text-muted)]">
-									Більше 4-х осіб — доплата 60 грн/особа за годину
+									{{ 'More than 4 people — surcharge 60 UAH/person per hour' | translate }}
 								</p>
 							</div>
 						</div>
@@ -275,28 +271,26 @@
 				</div>
 				<div class="space-y-3 text-sm leading-6 text-[var(--c-text-muted)]">
 					<p>
-						Суха сауна — це особливе місце для відпочинку, яке має свої традиції та історію.
-						Оздоровчий ефект досягається завдяки оптимальному співвідношенню вологості та
-						температури. Суха сауна розрахована на 4 осіб.
+						{{ 'Dry sauna is a special place for relaxation with its own traditions and history. The health effect is achieved through the optimal ratio of humidity and temperature. The dry sauna accommodates 4 people.' | translate }}
 					</p>
 					<ul class="space-y-1">
-						<li>— температура в парній до 100°С</li>
-						<li>— вологість повітря 15–20%</li>
-						<li>— холодний купель</li>
-						<li>— кімната відпочинку</li>
+						<li>— {{ 'Temperature in the steam room up to 100°C' | translate }}</li>
+						<li>— {{ 'Air humidity 15–20%' | translate }}</li>
+						<li>— {{ 'Cold plunge pool' | translate }}</li>
+						<li>— {{ 'Rest room' | translate }}</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Мокра сауна -->
+	<!-- Wet Sauna -->
 	<section
 		id="mokra"
 		class="overflow-hidden rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
 	>
 		<div class="border-b border-[var(--c-border)] px-4 py-4 sm:px-6">
-			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">Мокра сауна</h2>
+			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">{{ 'Wet Sauna' | translate }}</h2>
 		</div>
 		<div class="grid gap-0 lg:grid-cols-2">
 			<div
@@ -307,29 +301,29 @@
 						<p
 							class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 						>
-							Понеділок — Четвер
+							{{ 'Monday — Thursday' | translate }}
 						</p>
 						<div class="mt-2 space-y-3">
 							<div>
 								<div
 									class="flex items-baseline justify-between gap-4 border-b border-[var(--c-border)] pb-2"
 								>
-									<span class="text-sm text-[var(--c-text-primary)]">До 17:00</span>
+									<span class="text-sm text-[var(--c-text-primary)]">{{ 'Before 17:00' | translate }}</span>
 									<span class="font-semibold text-[var(--c-primary)]">550 грн/год</span>
 								</div>
 								<p class="mt-1 text-xs text-[var(--c-text-muted)]">
-									Більше 4-х осіб — доплата 60 грн/особа за годину
+									{{ 'More than 4 people — surcharge 60 UAH/person per hour' | translate }}
 								</p>
 							</div>
 							<div>
 								<div
 									class="flex items-baseline justify-between gap-4 border-b border-[var(--c-border)] pb-2"
 								>
-									<span class="text-sm text-[var(--c-text-primary)]">Після 17:00</span>
+									<span class="text-sm text-[var(--c-text-primary)]">{{ 'After 17:00' | translate }}</span>
 									<span class="font-semibold text-[var(--c-primary)]">650 грн/год</span>
 								</div>
 								<p class="mt-1 text-xs text-[var(--c-text-muted)]">
-									Більше 4-х осіб — доплата 60 грн/особа за годину
+									{{ 'More than 4 people — surcharge 60 UAH/person per hour' | translate }}
 								</p>
 							</div>
 						</div>
@@ -338,18 +332,18 @@
 						<p
 							class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 						>
-							П'ятниця — Неділя
+							{{ 'Friday — Sunday' | translate }}
 						</p>
 						<div class="mt-2">
 							<div>
 								<div
 									class="flex items-baseline justify-between gap-4 border-b border-[var(--c-border)] pb-2"
 								>
-									<span class="text-sm text-[var(--c-text-primary)]">Цілодобово</span>
+									<span class="text-sm text-[var(--c-text-primary)]">{{ 'Around the clock' | translate }}</span>
 									<span class="font-semibold text-[var(--c-primary)]">650 грн/год</span>
 								</div>
 								<p class="mt-1 text-xs text-[var(--c-text-muted)]">
-									Більше 4-х осіб — доплата 60 грн/особа за годину
+									{{ 'More than 4 people — surcharge 60 UAH/person per hour' | translate }}
 								</p>
 							</div>
 						</div>
@@ -357,14 +351,13 @@
 				</div>
 				<div class="space-y-3 text-sm leading-6 text-[var(--c-text-muted)]">
 					<p>
-						Мокра сауна відрізняється максимальною вологістю. Волога пара в сауні прогріває тіло
-						набагато глибше. Сауна розрахована на 4 осіб.
+						{{ 'Wet sauna is characterized by maximum humidity. Wet steam in the sauna warms the body much deeper. The sauna accommodates 4 people.' | translate }}
 					</p>
 					<ul class="space-y-1">
-						<li>— температура в сауні 50–60°С</li>
-						<li>— вологість повітря до 100%</li>
-						<li>— холодний купель</li>
-						<li>— кімната відпочинку</li>
+						<li>— {{ 'Temperature in the sauna 50–60°C' | translate }}</li>
+						<li>— {{ 'Air humidity up to 100%' | translate }}</li>
+						<li>— {{ 'Cold plunge pool' | translate }}</li>
+						<li>— {{ 'Rest room' | translate }}</li>
 					</ul>
 				</div>
 			</div>
@@ -372,7 +365,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9578-300x200.jpg"
-					alt="Мокра сауна — парна"
+					[attr.alt]="'Wet sauna — steam room' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -380,7 +373,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9579-300x200.jpg"
-					alt="Мокра сауна — лежаки"
+					[attr.alt]="'Wet sauna — loungers' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -388,7 +381,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9580-300x200.jpg"
-					alt="Мокра сауна — купель"
+					[attr.alt]="'Wet sauna — plunge pool' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
@@ -396,7 +389,7 @@
 				<img
 					class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
 					src="https://gentleman.te.ua/wp-content/uploads/2021/02/img_9583-300x200.jpg"
-					alt="Мокра сауна — відпочинок"
+					[attr.alt]="'Wet sauna — relaxation' | translate"
 					loading="lazy"
 					width="300"
 					height="200"
