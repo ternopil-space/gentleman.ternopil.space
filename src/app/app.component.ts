@@ -72,8 +72,8 @@ export class App {
 		{ label: 'Nav', icon: 'navigation', route: '/navigation', exact: true },
 		{ label: 'Gallery', icon: 'photo_library', route: '/gallery', exact: true },
 		{ label: 'Socials', icon: 'share', route: '/socials', exact: true },
-		{ label: 'Favorite', icon: 'favorite', route: '/favorites', exact: true },
-		{ label: 'Menu', icon: 'restaurant_menu', route: '/', exact: true },
+		{ label: 'Rooms', icon: 'hotel', route: '/rooms', exact: true },
+		{ label: 'Spa', icon: 'spa', route: '/spa', exact: true },
 	];
 
 	constructor() {
@@ -105,9 +105,10 @@ export class App {
 }
 
 const _pageTitleKeys: Record<string, string> = {
-	'/': 'Menu',
+	'/menu': 'Menu',
 	'/favorites': 'Favorites',
 	'/rooms': 'Rooms',
+	'/spa': 'Spa',
 	'/navigation': 'Navigation',
 	'/gallery': 'Gallery',
 	'/sales': 'Sales',

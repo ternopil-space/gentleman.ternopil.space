@@ -4,8 +4,13 @@ import { buildRouteMeta } from './seo/seo.utils';
 export const routes: Routes = [
 	{
 		path: '',
+		redirectTo: '/menu',
+		pathMatch: 'full',
+	},
+	{
+		path: 'menu',
 		data: {
-			meta: buildRouteMeta('/'),
+			meta: buildRouteMeta('/menu'),
 		},
 		loadComponent: () =>
 			import('./pages/menu/menu.component').then((m) => m.MenuComponent),
@@ -114,7 +119,14 @@ export const routes: Routes = [
 			import('./pages/socials/socials.component').then((m) => m.SocialsComponent),
 	},
 	{
+		path: 'spa',
+		data: {
+			meta: buildRouteMeta('/spa'),
+		},
+		loadComponent: () => import('./pages/spa/spa.component').then((m) => m.SpaComponent),
+	},
+	{
 		path: '**',
-		redirectTo: '/',
+		redirectTo: '/menu',
 	},
 ];

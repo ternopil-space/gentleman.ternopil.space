@@ -11,6 +11,12 @@ import { TranslatePipe } from '../../shared/translate.pipe';
 })
 export class NavigationComponent {
 	protected readonly navItems = [
+		{ label: 'Menu', icon: 'restaurant_menu', route: '/menu' },
+		{ label: 'Favorites', icon: 'favorite', route: '/favorites' },
+
+		{ label: 'Rooms', icon: 'hotel', route: '/rooms' },
+		{ label: 'Spa', icon: 'spa', route: '/spa' },
+
 		{ label: 'Team', icon: 'group', route: '/team' },
 		{ label: 'Jobs', icon: 'work', route: '/jobs' },
 
@@ -20,9 +26,7 @@ export class NavigationComponent {
 		{ label: 'Events', icon: 'event', route: '/events' },
 		{ label: 'Quests', icon: 'explore', route: '/quests' },
 
-		{ label: 'Rooms', icon: 'hotel', route: '/rooms' },
 		{ label: 'Sales', icon: 'sell', route: '/sales' },
-
 		{ label: 'Products', icon: 'shopping_bag', route: '/products' },
 	];
 }
