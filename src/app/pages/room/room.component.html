@@ -1,0 +1,141 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-10 pt-3 sm:px-4 sm:pb-12">
+	@if (room(); as r) {
+		<section
+			class="overflow-hidden rounded-[1.5rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
+		>
+			<!-- Hero -->
+			<div class="grid gap-0 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
+				<div class="relative min-h-[18rem] lg:min-h-[30rem]">
+					<img
+						class="absolute inset-0 h-full w-full object-cover"
+						[src]="r.image"
+						[alt]="r.imageAlt | translate"
+						width="800"
+						height="600"
+					/>
+				</div>
+
+				<div class="flex flex-col justify-center px-4 py-6 sm:px-6 sm:py-8 lg:px-8 lg:py-10">
+					<a
+						class="inline-flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--c-secondary)] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--c-secondary)]"
+						routerLink="/rooms"
+					>
+						<span class="material-symbols-outlined text-[14px]" aria-hidden="true">arrow_back</span>
+						{{ 'All rooms' | translate }}
+					</a>
+					<h1 class="mt-4 text-[2rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-[2.4rem]">
+						{{ r.name | translate }}
+					</h1>
+					<p class="mt-1 text-sm text-[var(--c-text-muted)]">
+						{{ r.capacity | translate }}
+					</p>
+					<p class="mt-4 text-sm leading-7 text-[var(--c-text-muted)]">
+						{{ r.description | translate }}
+					</p>
+					<p class="mt-5 text-lg font-semibold text-[var(--c-text-secondary)]">
+						{{ r.price }}
+					</p>
+					@if (r.extraPerson) {
+						<p class="mt-0.5 text-[11px] text-[var(--c-text-muted)]">
+							{{ r.extraPerson | translate }}
+						</p>
+					}
+					<a
+						class="mt-6 inline-flex w-fit items-center gap-2 rounded-full bg-[var(--c-primary)] px-6 py-3 text-sm font-semibold text-white transition-transform duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--c-secondary)] focus-visible:ring-offset-2"
+						href="tel:+380985519900"
+					>
+						<span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+						{{ 'Book now' | translate }}
+					</a>
+				</div>
+			</div>
+
+			<!-- Amenities -->
+			@if (r.amenities.length) {
+				<div class="border-t border-[var(--c-border)] px-4 py-6 sm:px-6 lg:px-8">
+					<h2 class="text-lg font-semibold text-[var(--c-text-secondary)]">
+						{{ 'Room amenities' | translate }}
+					</h2>
+					<ul class="mt-4 flex flex-wrap gap-3" aria-label="Room amenities">
+						@for (amenity of r.amenities; track amenity) {
+							<li
+								class="rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-4 py-3 text-sm text-[var(--c-text-secondary)]"
+							>
+								{{ amenity | translate }}
+							</li>
+						}
+					</ul>
+				</div>
+			}
+
+			<!-- Booking contacts -->
+			<div class="border-t border-[var(--c-border)] px-4 py-6 sm:px-6 lg:px-8">
+				<div class="grid gap-4 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
+					<div class="rounded-[1.25rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 sm:p-6">
+						<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+							{{ 'Booking' | translate }}
+						</p>
+						<h2 class="mt-3 text-[1.5rem] font-semibold text-[var(--c-text-secondary)]">
+							{{ 'Call or write — we will reserve a room for you' | translate }}
+						</h2>
+						<p class="mt-3 text-sm leading-7 text-[var(--c-text-muted)]">
+							{{ 'Check-in at 14:00, check-out at 12:00. Free secured parking. Breakfast available on request.' | translate }}
+						</p>
+					</div>
+
+					<div class="grid gap-4 sm:grid-cols-2">
+						@for (link of contactLinks; track link.label) {
+							<a
+								class="rounded-[1.25rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 text-left transition-transform duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--c-secondary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)]"
+								[href]="link.href"
+							>
+								<p class="text-sm font-semibold text-[var(--c-text-secondary)]">
+									{{ link.label | translate }}
+								</p>
+								<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
+									{{ link.description }}
+								</p>
+							</a>
+						}
+					</div>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div class="border-t border-[var(--c-border)] bg-[var(--c-bg-primary)]/70 px-4 py-8 sm:px-6 lg:px-8">
+				<img
+					class="mx-auto h-auto w-24 opacity-90 sm:w-28"
+					ngSrc="logo.png"
+					alt="Hotel Gentleman"
+					width="720"
+					height="720"
+				/>
+				<div class="mt-6 flex justify-center">
+					<a
+						class="inline-flex items-center gap-2 rounded-full border border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-5 py-2.5 text-sm font-semibold text-[var(--c-text-secondary)] transition-transform duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--c-secondary)] focus-visible:ring-offset-2"
+						routerLink="/rooms"
+					>
+						<span class="material-symbols-outlined text-[18px] text-[var(--c-secondary)]" aria-hidden="true">hotel</span>
+						{{ 'All rooms' | translate }}
+					</a>
+				</div>
+			</div>
+		</section>
+	} @else {
+		<section
+			class="rounded-[1.2rem] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+		>
+			<span class="material-symbols-outlined text-[36px] text-[var(--c-secondary)]" aria-hidden="true">hotel</span>
+			<h1 class="mt-3 text-xl font-semibold text-[var(--c-text-secondary)]">
+				{{ 'Room not found' | translate }}
+			</h1>
+			<a
+				class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--c-secondary)] hover:underline"
+				routerLink="/rooms"
+			>
+				<span class="material-symbols-outlined text-[16px]" aria-hidden="true">arrow_back</span>
+				{{ 'All rooms' | translate }}
+			</a>
+		</section>
+	}
+</main>

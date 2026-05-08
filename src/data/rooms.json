@@ -5,7 +5,7 @@
 		"description": "Comfortable room for business trips or short solo stays. A good bed, workspace, and quiet atmosphere for quality sleep and a productive day.",
 		"price": "990 грн/доба",
 		"capacity": "1 person",
-		"image": "room/room-1.webp",
+		"image": "https://gentleman.te.ua/wp-content/uploads/2022/09/img_7716-400x400.jpg",
 		"imageAlt": "Single room at Hotel Gentleman",
 		"amenities": ["Wi-Fi", "Air conditioning", "TV", "Shower cabin", "Balcony", "City view"]
 	},
@@ -15,7 +15,7 @@
 		"description": "Stylish room with a double or twin beds. A comfortable space for rest or a business trip with all necessary amenities.",
 		"price": "1 250 грн/доба",
 		"capacity": "1–2 persons",
-		"image": "room/room-1.webp",
+		"image": "https://gentleman.te.ua/wp-content/uploads/2018/10/DSC_2565-R1-c-400x400.jpg",
 		"imageAlt": "Standard room at Hotel Gentleman",
 		"amenities": ["Wi-Fi", "Air conditioning", "Double or twin beds", "TV", "Shower cabin", "Balcony"]
 	},
@@ -25,7 +25,7 @@
 		"description": "Enhanced Standard room with elevated comfort and a stylish interior. A double bed and private bathroom with shower cabin.",
 		"price": "1 350 грн/доба",
 		"capacity": "1–2 persons",
-		"image": "room/room-2.webp",
+		"image": "https://gentleman.te.ua/wp-content/uploads/2018/10/DSC_1806-R-400x400.jpg",
 		"imageAlt": "Standard Plus room at Hotel Gentleman",
 		"amenities": ["Wi-Fi", "Air conditioning", "Double bed", "TV", "Shower cabin", "Balcony"]
 	},
@@ -36,7 +36,7 @@
 		"price": "1 650 грн/доба",
 		"capacity": "2 persons",
 		"extraPerson": "+ person 250 UAH/night",
-		"image": "room/room-2.webp",
+		"image": "https://gentleman.te.ua/wp-content/uploads/2018/10/DSC_1803-R-400x400.jpg",
 		"imageAlt": "Junior Suite at Hotel Gentleman",
 		"amenities": ["Wi-Fi", "Air conditioning", "King Size bed", "Sofa", "Shower cabin", "Balcony"]
 	},
@@ -47,7 +47,7 @@
 		"price": "2 400 грн/доба",
 		"capacity": "up to 3 adults or 2+2",
 		"extraPerson": "+ person 250 UAH/night",
-		"image": "room/room-3.webp",
+		"image": "https://gentleman.te.ua/wp-content/uploads/2022/09/photo_2022-09-15_07-07-41-400x400.jpg",
 		"imageAlt": "Suite at Hotel Gentleman",
 		"amenities": ["Wi-Fi", "King Size bed", "Refrigerator", "Bathrobes and slippers", "Panoramic windows", "Two rooms"]
 	},
@@ -58,7 +58,7 @@
 		"price": "2 700 грн/доба",
 		"capacity": "up to 3 adults or 2+2",
 		"extraPerson": "+ person 250 UAH/night",
-		"image": "room/room-3.webp",
+		"image": "https://gentleman.te.ua/wp-content/uploads/2018/10/DSC_2596-R-400x400.jpg",
 		"imageAlt": "Deluxe Suite at Hotel Gentleman",
 		"amenities": ["Wi-Fi", "King Size bed", "Two TVs", "Refrigerator", "Dining table", "Panoramic windows"]
 	}

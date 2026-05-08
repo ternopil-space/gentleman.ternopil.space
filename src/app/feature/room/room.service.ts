@@ -3,6 +3,7 @@ import roomsData from '../../../data/rooms.json';
 import { Room } from './room.interface';
 
 const _fallbackRooms: Room[] = _normalizeRooms(roomsData as unknown[]);
+export const roomSlugs: string[] = _fallbackRooms.map((r) => r.slug);
 
 @Injectable({
 	providedIn: 'root',

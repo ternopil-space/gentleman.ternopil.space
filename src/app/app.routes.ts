@@ -33,6 +33,10 @@ export const routes: Routes = [
 		loadComponent: () => import('./pages/rooms/rooms.component').then((m) => m.RoomsComponent),
 	},
 	{
+		path: 'rooms/:slug',
+		loadComponent: () => import('./pages/room/room.component').then((m) => m.RoomComponent),
+	},
+	{
 		path: 'navigation',
 		data: {
 			meta: buildRouteMeta('/navigation'),

@@ -7,7 +7,7 @@ import {
 
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
-import { provideRouter, withRouterConfig } from '@angular/router';
+import { provideRouter, withInMemoryScrolling, withRouterConfig } from '@angular/router';
 import { provideNgxCore } from '@wawjs/ngx-core';
 import { provideTranslate } from '@wawjs/ngx-translate';
 import { routes } from './app.routes';
@@ -34,6 +34,7 @@ export const appConfig: ApplicationConfig = {
 			withRouterConfig({
 				onSameUrlNavigation: 'reload',
 			}),
+			withInMemoryScrolling({ anchorScrolling: 'enabled', scrollPositionRestoration: 'top' }),
 		),
 		provideHttpClient(withFetch()),
 		provideClientHydration(withEventReplay()),
