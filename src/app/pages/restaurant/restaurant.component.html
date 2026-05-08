@@ -7,7 +7,7 @@
 				Gentleman
 			</p>
 			<h1 class="mt-2 text-[1.8rem] font-semibold leading-9 text-[var(--c-text-secondary)]">
-				Ресторан Джентльмен
+				{{ 'Gentleman Restaurant' | translate }}
 			</h1>
 		</div>
 		<div class="flex flex-wrap gap-2 px-4 py-4 sm:px-6">
@@ -15,15 +15,15 @@
 				href="#hall-1"
 				class="flex flex-col rounded-[0.8rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-4 py-3 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
 			>
-				<span class="text-sm font-semibold text-[var(--c-text-secondary)]">Банкетний зал №1</span>
-				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">до 180 гостей</span>
+				<span class="text-sm font-semibold text-[var(--c-text-secondary)]">{{ 'Banquet Hall №1' | translate }}</span>
+				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">{{ 'up to 180 guests' | translate }}</span>
 			</a>
 			<a
 				href="#hall-2"
 				class="flex flex-col rounded-[0.8rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-4 py-3 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
 			>
-				<span class="text-sm font-semibold text-[var(--c-text-secondary)]">Банкетний зал №2</span>
-				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">камерні події</span>
+				<span class="text-sm font-semibold text-[var(--c-text-secondary)]">{{ 'Banquet Hall №2' | translate }}</span>
+				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">{{ 'Intimate events' | translate }}</span>
 			</a>
 			<a
 				href="https://gentleman.te.ua/rezervuvannya-restoranu/"
@@ -31,8 +31,8 @@
 				rel="noopener noreferrer"
 				class="flex flex-col rounded-[0.8rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-4 py-3 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
 			>
-				<span class="text-sm font-semibold text-[var(--c-secondary)]">Забронювати</span>
-				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">Резервування столу</span>
+				<span class="text-sm font-semibold text-[var(--c-secondary)]">{{ 'Book a table' | translate }}</span>
+				<span class="mt-0.5 text-xs text-[var(--c-text-muted)]">{{ 'Table reservation' | translate }}</span>
 			</a>
 		</div>
 	</section>
@@ -40,54 +40,54 @@
 	<!-- Special offers -->
 	<section class="overflow-hidden rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]">
 		<div class="border-b border-[var(--c-border)] px-4 py-4 sm:px-6">
-			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">Банкетні зали</h2>
+			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">{{ 'Banquet Halls' | translate }}</h2>
 		</div>
 		<div class="grid gap-0 lg:grid-cols-2">
 			<!-- Wedding offer -->
 			<div class="space-y-5 border-b border-[var(--c-border)] p-4 sm:p-6 lg:border-b-0 lg:border-r">
 				<div>
 					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
-						💍 Весільна спецпропозиція
+						💍 {{ 'Wedding special offer' | translate }}
 					</p>
 					<ul class="mt-3 space-y-2 text-sm leading-6 text-[var(--c-text-primary)]">
 						<li class="flex items-start gap-2">
 							<span>🏨</span>
-							<span>Номер для молодят — у подарунок</span>
+							<span>{{ 'Bridal suite — as a gift' | translate }}</span>
 						</li>
 						<li class="flex items-start gap-2">
 							<span>🍾</span>
-							<span>Шампанське та фрукти в номері</span>
+							<span>{{ 'Champagne and fruits in the room' | translate }}</span>
 						</li>
 						<li class="flex items-start gap-2">
 							<span>🕯</span>
-							<span>Романтичне оформлення номера</span>
+							<span>{{ 'Romantic room decoration' | translate }}</span>
 						</li>
 						<li class="flex items-start gap-2">
 							<span>🍸</span>
-							<span>Welcome drink для гостей</span>
+							<span>{{ 'Welcome drink for guests' | translate }}</span>
 						</li>
 						<li class="flex items-start gap-2">
 							<span>🔥</span>
-							<span>–20% на сауну на наступний день</span>
+							<span>{{ '–20% on sauna the next day' | translate }}</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span>❌</span>
-							<span>Безкоштовна оренда банкетного залу</span>
+							<span>🎁</span>
+							<span>{{ 'Free banquet hall rental' | translate }}</span>
 						</li>
 					</ul>
 				</div>
 				<div class="border-t border-[var(--c-border)] pt-5">
 					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
-						🎂 Спецпропозиція для іменинників
+						🎂 {{ 'Birthday special offer' | translate }}
 					</p>
 					<ul class="mt-3 space-y-2 text-sm leading-6 text-[var(--c-text-primary)]">
 						<li class="flex items-start gap-2">
 							<span>🎉</span>
-							<span>–10% на святковий стіл для іменинника</span>
+							<span>{{ '–10% on the birthday table' | translate }}</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span>❌</span>
-							<span>Оренда залу — 0 грн</span>
+							<span>🎁</span>
+							<span>{{ 'Hall rental — free' | translate }}</span>
 						</li>
 					</ul>
 				</div>
@@ -96,17 +96,17 @@
 			<div class="space-y-5 p-4 sm:p-6">
 				<div>
 					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
-						Чому обирають нас
+						{{ 'Why guests choose us' | translate }}
 					</p>
 					<ul class="mt-3 space-y-2 text-sm leading-6 text-[var(--c-text-muted)]">
-						<li>— Професійна кухня та мангальне меню</li>
-						<li>— Кальяни</li>
-						<li>— Сервіс і організація під ключ</li>
+						<li>— {{ 'Professional kitchen and grill menu' | translate }}</li>
+						<li>— {{ 'Hookahs' | translate }}</li>
+						<li>— {{ 'Full-service event coordination' | translate }}</li>
 					</ul>
 				</div>
 				<div class="border-t border-[var(--c-border)] pt-5">
 					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
-						Бронювання та прорахунок
+						{{ 'Booking and inquiry' | translate }}
 					</p>
 					<a
 						href="tel:+380985519900"
@@ -125,17 +125,17 @@
 		class="overflow-hidden rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
 	>
 		<div class="border-b border-[var(--c-border)] px-4 py-4 sm:px-6">
-			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">⭐ Банкетний зал №1 (оновлений)</h2>
+			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">⭐ {{ 'Banquet Hall №1 (renovated)' | translate }}</h2>
 		</div>
 		<div class="p-4 sm:p-6">
 			<ul class="space-y-2 text-sm leading-6 text-[var(--c-text-primary)]">
 				<li>
 					<span class="font-semibold">200 м²</span>
-					<span class="text-[var(--c-text-muted)]"> | до 180 гостей</span>
+					<span class="text-[var(--c-text-muted)]"> | {{ 'up to 180 guests' | translate }}</span>
 				</li>
-				<li class="text-[var(--c-text-muted)]">• Весілля та масштабні урочистості</li>
-				<li class="text-[var(--c-text-muted)]">• Зона для танців, фуршетів, фотозони</li>
-				<li class="text-[var(--c-text-muted)]">• Окрема зона для DJ / музикантів</li>
+				<li class="text-[var(--c-text-muted)]">• {{ 'Weddings and large celebrations' | translate }}</li>
+				<li class="text-[var(--c-text-muted)]">• {{ 'Dance floor, buffet area, photo zone' | translate }}</li>
+				<li class="text-[var(--c-text-muted)]">• {{ 'Dedicated area for DJ / musicians' | translate }}</li>
 			</ul>
 		</div>
 	</section>
@@ -146,16 +146,16 @@
 		class="overflow-hidden rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
 	>
 		<div class="border-b border-[var(--c-border)] px-4 py-4 sm:px-6">
-			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">⭐ Банкетний зал №2</h2>
+			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">⭐ {{ 'Banquet Hall №2' | translate }}</h2>
 		</div>
 		<div class="p-4 sm:p-6">
 			<ul class="space-y-2 text-sm leading-6 text-[var(--c-text-primary)]">
 				<li>
 					<span class="font-semibold">150 м²</span>
-					<span class="text-[var(--c-text-muted)]"> | камерні події</span>
+					<span class="text-[var(--c-text-muted)]"> | {{ 'Intimate events' | translate }}</span>
 				</li>
-				<li class="text-[var(--c-text-muted)]">• Невеликі весілля, дні народжень, хрестини</li>
-				<li class="text-[var(--c-text-muted)]">• Приватна атмосфера та класичний стиль</li>
+				<li class="text-[var(--c-text-muted)]">• {{ 'Small weddings, birthdays, baptisms' | translate }}</li>
+				<li class="text-[var(--c-text-muted)]">• {{ 'Private atmosphere and classic style' | translate }}</li>
 			</ul>
 		</div>
 	</section>
@@ -164,7 +164,7 @@
 	<section class="overflow-hidden rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]">
 		<div class="flex flex-col items-start gap-4 p-4 sm:flex-row sm:items-center sm:justify-between sm:p-6">
 			<p class="text-base font-semibold text-[var(--c-text-secondary)]">
-				Джентльмен потурбується про Ваше свято!
+				{{ 'Gentleman will take care of your celebration!' | translate }}
 			</p>
 			<a
 				href="https://gentleman.te.ua/rezervuvannya-restoranu/"
@@ -172,7 +172,7 @@
 				rel="noopener noreferrer"
 				class="inline-flex shrink-0 items-center gap-2 rounded-[0.8rem] bg-[var(--c-primary)] px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
 			>
-				Забронювати
+				{{ 'Book a table' | translate }}
 				<span class="material-symbols-outlined text-[18px]" aria-hidden="true">arrow_forward</span>
 			</a>
 		</div>

@@ -1,5 +1,6 @@
 import { NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { TranslatePipe } from '../../shared/translate.pipe';
 import { RoomService } from '../../feature/room/room.service';
 
@@ -10,7 +11,7 @@ type ContactLink = {
 };
 
 @Component({
-	imports: [NgOptimizedImage, TranslatePipe],
+	imports: [NgOptimizedImage, RouterLink, TranslatePipe],
 	templateUrl: './rooms.component.html',
 	styleUrl: './rooms.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,

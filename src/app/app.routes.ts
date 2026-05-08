@@ -4,8 +4,10 @@ import { buildRouteMeta } from './seo/seo.utils';
 export const routes: Routes = [
 	{
 		path: '',
-		redirectTo: '/menu',
-		pathMatch: 'full',
+		data: {
+			meta: buildRouteMeta('/'),
+		},
+		loadComponent: () => import('./pages/home/home.component').then((m) => m.HomeComponent),
 	},
 	{
 		path: 'menu',
@@ -135,6 +137,6 @@ export const routes: Routes = [
 	},
 	{
 		path: '**',
-		redirectTo: '/menu',
+		redirectTo: '/',
 	},
 ];
