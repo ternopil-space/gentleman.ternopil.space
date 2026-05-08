@@ -1,1 +1,65 @@
-[]
+[
+	{
+		"slug": "single",
+		"name": "Single",
+		"description": "Comfortable room for business trips or short solo stays. A good bed, workspace, and quiet atmosphere for quality sleep and a productive day.",
+		"price": "990 грн/доба",
+		"capacity": "1 person",
+		"image": "room/room-1.webp",
+		"imageAlt": "Single room at Hotel Gentleman",
+		"amenities": ["Wi-Fi", "Air conditioning", "TV", "Shower cabin", "Balcony", "City view"]
+	},
+	{
+		"slug": "standard",
+		"name": "Standard",
+		"description": "Stylish room with a double or twin beds. A comfortable space for rest or a business trip with all necessary amenities.",
+		"price": "1 250 грн/доба",
+		"capacity": "1–2 persons",
+		"image": "room/room-1.webp",
+		"imageAlt": "Standard room at Hotel Gentleman",
+		"amenities": ["Wi-Fi", "Air conditioning", "Double or twin beds", "TV", "Shower cabin", "Balcony"]
+	},
+	{
+		"slug": "standard-plus",
+		"name": "Standard Plus",
+		"description": "Enhanced Standard room with elevated comfort and a stylish interior. A double bed and private bathroom with shower cabin.",
+		"price": "1 350 грн/доба",
+		"capacity": "1–2 persons",
+		"image": "room/room-2.webp",
+		"imageAlt": "Standard Plus room at Hotel Gentleman",
+		"amenities": ["Wi-Fi", "Air conditioning", "Double bed", "TV", "Shower cabin", "Balcony"]
+	},
+	{
+		"slug": "junior-suite",
+		"name": "Junior Suite",
+		"description": "Spacious room with a King Size bed and lounge area. An ideal choice for couples or guests who value comfort and space.",
+		"price": "1 650 грн/доба",
+		"capacity": "2 persons",
+		"extraPerson": "+ person 250 UAH/night",
+		"image": "room/room-2.webp",
+		"imageAlt": "Junior Suite at Hotel Gentleman",
+		"amenities": ["Wi-Fi", "Air conditioning", "King Size bed", "Sofa", "Shower cabin", "Balcony"]
+	},
+	{
+		"slug": "suite",
+		"name": "Suite",
+		"description": "Spacious two-room suite with a separate bedroom and lounge area. A comfortable option for family stays or guests who appreciate extra space.",
+		"price": "2 400 грн/доба",
+		"capacity": "up to 3 adults or 2+2",
+		"extraPerson": "+ person 250 UAH/night",
+		"image": "room/room-3.webp",
+		"imageAlt": "Suite at Hotel Gentleman",
+		"amenities": ["Wi-Fi", "King Size bed", "Refrigerator", "Bathrobes and slippers", "Panoramic windows", "Two rooms"]
+	},
+	{
+		"slug": "deluxe-suite",
+		"name": "Deluxe Suite",
+		"description": "Two-room suite with a separate bedroom and living room. Enhanced comfort, more space and amenities — perfect for family stays.",
+		"price": "2 700 грн/доба",
+		"capacity": "up to 3 adults or 2+2",
+		"extraPerson": "+ person 250 UAH/night",
+		"image": "room/room-3.webp",
+		"imageAlt": "Deluxe Suite at Hotel Gentleman",
+		"amenities": ["Wi-Fi", "King Size bed", "Two TVs", "Refrigerator", "Dining table", "Panoramic windows"]
+	}
+]

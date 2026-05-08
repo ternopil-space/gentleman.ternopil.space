@@ -126,6 +126,14 @@ export const routes: Routes = [
 		loadComponent: () => import('./pages/spa/spa.component').then((m) => m.SpaComponent),
 	},
 	{
+		path: 'restaurant',
+		data: {
+			meta: buildRouteMeta('/restaurant'),
+		},
+		loadComponent: () =>
+			import('./pages/restaurant/restaurant.component').then((m) => m.RestaurantComponent),
+	},
+	{
 		path: '**',
 		redirectTo: '/menu',
 	},

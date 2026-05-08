@@ -70,7 +70,7 @@ export class App {
 
 	protected readonly navItems = [
 		{ label: 'Nav', icon: 'navigation', route: '/navigation', exact: true },
-		{ label: 'Gallery', icon: 'photo_library', route: '/gallery', exact: true },
+		{ label: 'Restaurant', icon: 'restaurant', route: '/restaurant', exact: true },
 		{ label: 'Socials', icon: 'share', route: '/socials', exact: true },
 		{ label: 'Rooms', icon: 'hotel', route: '/rooms', exact: true },
 		{ label: 'Spa', icon: 'spa', route: '/spa', exact: true },
@@ -120,6 +120,7 @@ const _pageTitleKeys: Record<string, string> = {
 	'/jobs': 'Jobs',
 	'/team': 'Team',
 	'/socials': 'Socials',
+	'/restaurant': 'Restaurant',
 };
 
 function _normalizeTitlePath(url: string): string {

@@ -19,18 +19,18 @@ export class RoomsComponent {
 	private readonly _roomService = inject(RoomService);
 
 	protected readonly amenities = [
-		'Comfortable rooms',
-		'Breakfast for guests',
-		'Restaurant or cafe on site',
+		'Wi-Fi in every room',
+		'Individual air conditioning',
+		'Cable TV',
+		'Shower and hairdryer',
 		'Room service',
-		'Wi-Fi in rooms',
-		'Parking',
-		'Work area',
-		'Air conditioning',
-		'Transfer on request',
-		'Booking support',
+		'Free secured parking',
+		'24/7 security',
+		'Restaurant and bar on-site',
+		'Balcony',
+		'City view',
 	];
-	protected readonly loadingCards = [1, 2, 3];
+
 	protected readonly rooms = this._roomService.rooms;
 	protected readonly isLoading = this._roomService.isLoading;
 	protected readonly hasRooms = computed(() => this.rooms().length > 0);
@@ -38,18 +38,13 @@ export class RoomsComponent {
 	protected readonly contactLinks: ContactLink[] = [
 		{
 			label: 'Call us',
-			href: 'tel:+380970000000',
-			description: '+38 097 000 00 00',
+			href: 'tel:+380985519900',
+			description: '+38 (098) 55 19 900',
 		},
 		{
-			label: 'Chat on Viber',
-			href: 'https://example.com/horeca-demo/viber',
-			description: 'Demo chat for quick booking',
-		},
-		{
-			label: 'Chat on Telegram',
-			href: 'https://example.com/horeca-demo/telegram',
-			description: '@horeca_demo',
+			label: 'Email us',
+			href: 'mailto:gentleman_hotel@ukr.net',
+			description: 'gentleman_hotel@ukr.net',
 		},
 	];
 }
