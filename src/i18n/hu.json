@@ -189,7 +189,7 @@
 	"Cable TV": "Kábel TV",
 	"Shower and hairdryer": "Zuhanyzó és hajszárító",
 	"Room service": "Szobaszerviz",
-	"Free secured parking": "Ingyenes őrzött parkoló",
+	"Free secured parking": "Ingyenes fedett parkoló",
 	"24/7 security": "24 órás biztonság",
 	"Restaurant and bar on-site": "Étterem és bár a helyszínen",
 	"Balcony": "Erkély",
@@ -266,7 +266,7 @@
 	"Your ideal rest and guaranteed satisfaction. A new-standard complex with European service, a wide range of services, modern entertainment, and a unique concept of working with guests.": "Az ideális pihenés és garantált elégedettség. Új szabvány szerinti komplexum európai szolgáltatási szinttel, széles szolgáltatáskínálattal, modern szórakoztatással és egyedi vendégkezelési koncepcióval.",
 	"Restaurant reservation": "Éttermi foglalás",
 	"The best place for celebrations or leisure": "A legjobb hely ünneplésre vagy pihenésre",
-	"Hotel": "Szálloda",
+	"Hotel": "Hotel",
 	"A good rest after a long journey or a tiring workday": "Kellemes pihenés hosszú út vagy fárasztó munkanap után",
 	"Our saunas and hammam will help you relax and rejuvenate": "Szaunáink és a hammam segítenek lazítani és felfrissülni",
 	"Conference Hall": "Konferenciaterem",
@@ -334,7 +334,6 @@
 	"Wi-Fi, air conditioning, satellite TV": "Wi-Fi, légkondicionálás, műholdas TV",
 	"Electronic security system": "Elektronikus biztonsági rendszer",
 	"Cosmetic sets": "Kozmetikai készletek",
-	"Free secured parking": "Ingyenes fedett parkoló",
 	"Gentleman Restaurant — daily service and events": "Gentleman Étterem — napi kiszolgálás és rendezvények",
 	"Ukrainian and European cuisine": "Ukrán és európai konyha",
 	"Breakfasts, business lunches, dinners": "Reggelik, üzleti ebédek, vacsorák",
@@ -434,5 +433,73 @@
 	"Pets permitted at the Hotel are cats and non-fighting-breed dogs weighing up to 10 kg. The Hotel reserves the right to refuse check-in to a Guest with a pet.": "A Szállodában macskák és legfeljebb 10 kg-os, nem harci fajtájú kutyák tartózkodása engedélyezett. A Szálloda fenntartja a jogot, hogy megtagadja a bejelentkezést a háziállattal érkező Vendégtől.",
 	"No more than one pet is allowed per room. The pet stay fee is 200 UAH per night. Guests arriving with pets must have a pet passport and a veterinary certificate with a record of all vaccinations.": "Szobánként legfeljebb egy háziállat tartózkodhat. A háziállat szállásának díja 200 UAH/éjszaka. Háziállattal érkező vendégeknek rendelkezniük kell háziállatútlevéllel és az összes oltást rögzítő állatorvosi igazolással.",
 	"5.4. Air Raid Alert Notification:": "5.4. Légiriadó-értesítés:",
-	"I have been informed about the hotel's internal notification system in the event of an air raid alert and informed about the location of the shelter.": "Tájékoztattak a szálloda belső értesítési rendszeréről légiriadó esetén, és közölték velem az óvóhely helyét."
+	"I have been informed about the hotel's internal notification system in the event of an air raid alert and informed about the location of the shelter.": "Tájékoztattak a szálloda belső értesítési rendszeréről légiriadó esetén, és közölték velem az óvóhely helyét.",
+	"articles": {
+		"hotel-near-ternopil-comfortable-stay": {
+			"title": "Hogyan válasszunk hotelt Ternopil közelében kényelmes pihenéshez",
+			"summary": "Gyakorlati útmutató egy kényelmes hotel kiválasztásához Ternopil közelében, figyelve az elhelyezkedésre, parkolásra, szobákra, étteremre, komfortra és biztonságra.",
+			"category": "Hotel",
+			"publishedAt": "2026. május",
+			"body": [
+				"Hotel választásakor Ternopil közelében az elhelyezkedés az egyik első szempont. Egy jó hotel legyen könnyen megközelíthető, kényelmes az autóval érkező vendégeknek, és alkalmas mind városi programokra, mind csendes pihenésre a nyüzsgő központon kívül.",
+				"A kényelem a részleteken múlik: tiszta szobák, megbízható Wi‑Fi, légkondicionálás, őrzött parkoló, segítőkész kiszolgálás és étkezési lehetőség a komplexum elhagyása nélkül. Saját étteremmel és bárral rendelkező hotel különösen praktikus családoknak, pároknak és üzleti utazóknak.",
+				"A Hotel Gentleman egy helyen kínál szállást, éttermi szolgáltatást, parkolást és további relaxációs lehetőségeket, ezért kényelmes választás azoknak, akik értékelik a komfortot, a nyugodt hangulatot és a teljes körű szolgáltatást."
+			]
+		},
+		"sauna-and-hammam-weekend-relax": {
+			"title": "Szauna és hammam: tökéletes pihenés egy mozgalmas hét után",
+			"summary": "Tudd meg, miért ideális a szauna és a hammam regenerálódáshoz, nyugodt estékhez, privát pihenéshez és teljes hotel-étterem élményhez.",
+			"category": "Spa",
+			"publishedAt": "2026. május",
+			"body": [
+				"Egy mozgalmas hét után a testnek és az elmének egyszerű módra van szüksége a lelassuláshoz. A szauna vagy hammam egy átlagos estét teljes relaxációs rituálévá alakíthat meleggel, nyugalommal és távolsággal a mindennapi feladatoktól.",
+				"Ez a pihenési forma különösen kellemes, ha éttermi látogatással vagy hotelszállással párosul. A vendégek nyugodt környezetben kapcsolódhatnak ki, regenerálódhatnak utazás vagy munka után, és időt tölthetnek barátokkal, családdal vagy partnerükkel.",
+				"A Hotel Gentlemanben a szauna és a hammam kiegészíti a hotel- és éttermi élményt, kényelmes helyet teremtve pihenésre, wellnessre és privát kikapcsolódásra Ternopil közelében."
+			]
+		},
+		"business-trip-hotel-room-essentials": {
+			"title": "Hotel üzleti útra: mit kell tartalmaznia minden szobának",
+			"summary": "Rövid ellenőrzőlista üzleti utazóknak: megbízható Wi‑Fi, csendes szobák, légkondicionálás, őrzött parkoló, biztonság, kényelem és gyors városi elérés.",
+			"category": "Hotel",
+			"publishedAt": "2026. május",
+			"body": [
+				"Az üzleti utazók számára a hotelszoba több, mint alvóhely. Támogatnia kell a munkát, a pihenést és a következő napra való felkészülést. A megbízható Wi‑Fi, a csendes környezet, a jó világítás és a klíma alapvető.",
+				"A biztonság és a kényelem ugyanilyen fontos. Az őrzött parkoló, az átlátható kiszolgálás, a helyszíni étterem vagy bár és a város gyors elérése segít időt spórolni és elkerülni a felesleges stresszt egy üzleti út során.",
+				"A Hotel Gentleman biztosítja azokat az alapvető elemeket, amelyekre az üzleti vendégeknek általában szükségük van: kényelmes szobák, internetelérés, biztonságos parkolás, éttermi szolgáltatás és nyugodt elhelyezkedés Ternopil közelében."
+			]
+		},
+		"romantic-weekend-near-ternopil": {
+			"title": "Romantikus hétvége Ternopil közelében: hotel, vacsora és pihenés",
+			"summary": "Ötlet egy nyugodt páros kikapcsolódáshoz Ternopil közelében kényelmes szobával, éttermi vacsorával, szaunával vagy hammammal és kellemes hangulattal.",
+			"category": "Utazás",
+			"publishedAt": "2026. május",
+			"body": [
+				"Egy romantikus hétvége nem mindig igényel hosszú utazást. Néha egy kényelmes hotel a város közelében, egy szép vacsora és nyugodt hangulat elég ahhoz, hogy időt teremtsen csak kettőtöknek.",
+				"A legjobb rövid kikapcsolódás egyszerű örömöket kapcsol össze: otthonos szobát, éttermi szolgáltatást, lassú estét, szaunát vagy hammamot és kapkodásmentes pihenést. Ez a forma jól működik évfordulókra, születésnapokra vagy spontán hétvégékre.",
+				"A Ternopil közelében található Hotel Gentleman kényelmes környezetet kínál pároknak, akik pihenni, vacsorázni és nyugodt hétvégét tölteni szeretnének egy elegáns hotel-étterem komplexumban."
+			]
+		}
+	},
+	"How to choose a hotel near Ternopil for a comfortable stay": "Hogyan válasszunk hotelt Ternopil közelében kényelmes pihenéshez",
+	"A practical guide to choosing a convenient hotel near Ternopil, with attention to location, parking, rooms, restaurant service, comfort and safety.": "Gyakorlati útmutató egy kényelmes hotel kiválasztásához Ternopil közelében, figyelve az elhelyezkedésre, parkolásra, szobákra, étteremre, komfortra és biztonságra.",
+	"May 2026": "2026. május",
+	"When choosing a hotel near Ternopil, location is one of the first things to consider. A good hotel should be easy to reach, comfortable for guests arriving by car and convenient for both city visits and quiet rest outside the busy center.": "Hotel választásakor Ternopil közelében az elhelyezkedés az egyik első szempont. Egy jó hotel legyen könnyen megközelíthető, kényelmes az autóval érkező vendégeknek, és alkalmas mind városi programokra, mind csendes pihenésre a nyüzsgő központon kívül.",
+	"Comfort also depends on the details: clean rooms, reliable Wi‑Fi, air conditioning, secure parking, helpful service and access to food without needing to leave the complex. A hotel with its own restaurant and bar is especially practical for families, couples and business travelers.": "A kényelem a részleteken múlik: tiszta szobák, megbízható Wi‑Fi, légkondicionálás, őrzött parkoló, segítőkész kiszolgálás és étkezési lehetőség a komplexum elhagyása nélkül. Saját étteremmel és bárral rendelkező hotel különösen praktikus családoknak, pároknak és üzleti utazóknak.",
+	"Hotel Gentleman combines accommodation, restaurant service, parking and additional relaxation options in one place, making it a convenient choice for guests who value comfort, calm atmosphere and complete service.": "A Hotel Gentleman egy helyen kínál szállást, éttermi szolgáltatást, parkolást és további relaxációs lehetőségeket, ezért kényelmes választás azoknak, akik értékelik a komfortot, a nyugodt hangulatot és a teljes körű szolgáltatást.",
+	"Sauna and hammam: the perfect way to relax after a busy week": "Szauna és hammam: tökéletes pihenés egy mozgalmas hét után",
+	"Discover why sauna and hammam time is ideal for recovery, calm evenings, private relaxation and a complete hotel-and-restaurant experience.": "Tudd meg, miért ideális a szauna és a hammam regenerálódáshoz, nyugodt estékhez, privát pihenéshez és teljes hotel-étterem élményhez.",
+	"After a busy week, the body and mind need a simple way to slow down. A sauna or hammam can turn an ordinary evening into a full relaxation ritual with warmth, calm and time away from daily tasks.": "Egy mozgalmas hét után a testnek és az elmének egyszerű módra van szüksége a lelassuláshoz. A szauna vagy hammam egy átlagos estét teljes relaxációs rituálévá alakíthat meleggel, nyugalommal és távolsággal a mindennapi feladatoktól.",
+	"This type of rest is especially pleasant when it is combined with a restaurant visit or a stay at the hotel. Guests can enjoy a quiet atmosphere, recover after travel or work and spend time with friends, family or a partner.": "Ez a pihenési forma különösen kellemes, ha éttermi látogatással vagy hotelszállással párosul. A vendégek nyugodt környezetben kapcsolódhatnak ki, regenerálódhatnak utazás vagy munka után, és időt tölthetnek barátokkal, családdal vagy partnerükkel.",
+	"At Hotel Gentleman, sauna and hammam services complement the hotel and restaurant experience, creating a convenient place for rest, wellness and private relaxation near Ternopil.": "A Hotel Gentlemanben a szauna és a hammam kiegészíti a hotel- és éttermi élményt, kényelmes helyet teremtve pihenésre, wellnessre és privát kikapcsolódásra Ternopil közelében.",
+	"Hotel for a business trip: what every room should include": "Hotel üzleti útra: mit kell tartalmaznia minden szobának",
+	"A short checklist for business travelers: reliable Wi‑Fi, quiet rooms, air conditioning, guarded parking, safety, comfort and quick access to the city.": "Rövid ellenőrzőlista üzleti utazóknak: megbízható Wi‑Fi, csendes szobák, légkondicionálás, őrzött parkoló, biztonság, kényelem és gyors városi elérés.",
+	"For business travelers, a hotel room is more than a place to sleep. It should support work, rest and preparation for the next day. Reliable Wi‑Fi, a calm environment, good lighting and climate control are essential.": "Az üzleti utazók számára a hotelszoba több, mint alvóhely. Támogatnia kell a munkát, a pihenést és a következő napra való felkészülést. A megbízható Wi‑Fi, a csendes környezet, a jó világítás és a klíma alapvető.",
+	"Security and convenience are just as important. Guarded parking, clear service, a restaurant or bar on the territory and quick access to the city help guests save time and avoid unnecessary stress during a business trip.": "A biztonság és a kényelem ugyanilyen fontos. Az őrzött parkoló, az átlátható kiszolgálás, a helyszíni étterem vagy bár és a város gyors elérése segít időt spórolni és elkerülni a felesleges stresszt egy üzleti út során.",
+	"Hotel Gentleman offers the key elements business guests usually need: comfortable rooms, internet access, secure parking, restaurant service and a quiet location near Ternopil.": "A Hotel Gentleman biztosítja azokat az alapvető elemeket, amelyekre az üzleti vendégeknek általában szükségük van: kényelmes szobák, internetelérés, biztonságos parkolás, éttermi szolgáltatás és nyugodt elhelyezkedés Ternopil közelében.",
+	"Romantic weekend near Ternopil: hotel, dinner and relaxation": "Romantikus hétvége Ternopil közelében: hotel, vacsora és pihenés",
+	"An idea for a calm couple’s getaway near Ternopil with a comfortable room, restaurant dinner, sauna or hammam and a peaceful atmosphere.": "Ötlet egy nyugodt páros kikapcsolódáshoz Ternopil közelében kényelmes szobával, éttermi vacsorával, szaunával vagy hammammal és kellemes hangulattal.",
+	"Travel": "Utazás",
+	"A romantic weekend does not always require a long trip. Sometimes a comfortable hotel near the city, a beautiful dinner and a calm atmosphere are enough to create time just for two.": "Egy romantikus hétvége nem mindig igényel hosszú utazást. Néha egy kényelmes hotel a város közelében, egy szép vacsora és nyugodt hangulat elég ahhoz, hogy időt teremtsen csak kettőtöknek.",
+	"The best short getaway combines several simple pleasures: a cozy room, restaurant service, a slow evening, sauna or hammam and no rush. This format works well for anniversaries, birthdays or spontaneous weekends.": "A legjobb rövid kikapcsolódás egyszerű örömöket kapcsol össze: otthonos szobát, éttermi szolgáltatást, lassú estét, szaunát vagy hammamot és kapkodásmentes pihenést. Ez a forma jól működik évfordulókra, születésnapokra vagy spontán hétvégékre.",
+	"Hotel Gentleman near Ternopil offers a convenient setting for couples who want to relax, enjoy dinner and spend a peaceful weekend in an elegant hotel-and-restaurant complex.": "A Ternopil közelében található Hotel Gentleman kényelmes környezetet kínál pároknak, akik pihenni, vacsorázni és nyugodt hétvégét tölteni szeretnének egy elegáns hotel-étterem komplexumban."
 }

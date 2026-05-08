@@ -189,7 +189,7 @@
 	"Cable TV": "TV cabo",
 	"Shower and hairdryer": "Duche e secador de cabelo",
 	"Room service": "Serviço de quarto",
-	"Free secured parking": "Estacionamento gratuito e vigiado",
+	"Free secured parking": "Estacionamento coberto gratuito",
 	"24/7 security": "Segurança 24/7",
 	"Restaurant and bar on-site": "Restaurante e bar no local",
 	"Balcony": "Varanda",
@@ -334,7 +334,6 @@
 	"Wi-Fi, air conditioning, satellite TV": "Wi-Fi, ar condicionado, TV satélite",
 	"Electronic security system": "Sistema de segurança eletrónico",
 	"Cosmetic sets": "Kits de cosmética",
-	"Free secured parking": "Estacionamento coberto gratuito",
 	"Gentleman Restaurant — daily service and events": "Restaurante Gentleman — serviço diário e eventos",
 	"Ukrainian and European cuisine": "Cozinha ucraniana e europeia",
 	"Breakfasts, business lunches, dinners": "Pequenos-almoços, almoços de negócios, jantares",
@@ -422,5 +421,73 @@
 	"In case of intentional damage to Hotel property, the Guest bears full financial responsibility.": "Em caso de danos intencionais à propriedade do Hotel, o hóspede assume total responsabilidade financeira.",
 	"5.4 Acknowledgement": "5.4 Reconhecimento",
 	"By checking in, the Guest confirms that they have read, understood, and agree to comply with these Hotel Rules.": "Ao fazer check-in, o hóspede confirma que leu, compreendeu e concorda em cumprir estas Regras do Hotel.",
-	"I have been informed about the hotel's internal notification system in the event of an air raid alert and informed about the location of the shelter.": "Fui informado sobre o sistema de notificação interna do hotel em caso de alerta de ataque aéreo e informado sobre a localização do abrigo."
+	"I have been informed about the hotel's internal notification system in the event of an air raid alert and informed about the location of the shelter.": "Fui informado sobre o sistema de notificação interna do hotel em caso de alerta de ataque aéreo e informado sobre a localização do abrigo.",
+	"articles": {
+		"hotel-near-ternopil-comfortable-stay": {
+			"title": "Como escolher um hotel perto de Ternopil para uma estadia confortável",
+			"summary": "Um guia prático para escolher um hotel confortável perto de Ternopil, com atenção à localização, estacionamento, quartos, restaurante, conforto e segurança.",
+			"category": "Hotel",
+			"publishedAt": "Maio 2026",
+			"body": [
+				"Ao escolher um hotel perto de Ternopil, a localização é uma das primeiras coisas a considerar. Um bom hotel deve ser fácil de alcançar, confortável para hóspedes que chegam de carro e adequado tanto para visitas à cidade como para descanso tranquilo fora do centro movimentado.",
+				"O conforto depende dos detalhes: quartos limpos, Wi‑Fi confiável, ar condicionado, estacionamento vigiado, atendimento prestativo e a possibilidade de comer sem sair do complexo. Um hotel com restaurante e bar próprios é especialmente prático para famílias, casais e viajantes de negócios.",
+				"O Hotel Gentleman combina alojamento, serviço de restaurante, estacionamento e opções adicionais de relaxamento num só lugar, tornando-se uma escolha conveniente para hóspedes que valorizam conforto, ambiente calmo e serviço completo."
+			]
+		},
+		"sauna-and-hammam-weekend-relax": {
+			"title": "Sauna e hammam: a forma perfeita de relaxar depois de uma semana intensa",
+			"summary": "Descubra por que sauna e hammam são ideais para recuperação, noites tranquilas, relaxamento privado e uma experiência completa de hotel e restaurante.",
+			"category": "Spa",
+			"publishedAt": "Maio 2026",
+			"body": [
+				"Depois de uma semana intensa, o corpo e a mente precisam de uma forma simples de desacelerar. Uma sauna ou hammam pode transformar uma noite comum num ritual completo de relaxamento, com calor, calma e distância das tarefas diárias.",
+				"Este tipo de descanso é especialmente agradável quando combinado com uma visita ao restaurante ou uma estadia no hotel. Os hóspedes podem desfrutar de um ambiente tranquilo, recuperar depois da viagem ou do trabalho e passar tempo com amigos, família ou parceiro.",
+				"No Hotel Gentleman, sauna e hammam complementam a experiência de hotel e restaurante, criando um lugar conveniente para descanso, bem-estar e relaxamento privado perto de Ternopil."
+			]
+		},
+		"business-trip-hotel-room-essentials": {
+			"title": "Hotel para viagem de negócios: o que cada quarto deve incluir",
+			"summary": "Uma breve lista para viajantes de negócios: Wi‑Fi confiável, quartos tranquilos, ar condicionado, estacionamento vigiado, segurança, conforto e acesso rápido à cidade.",
+			"category": "Hotel",
+			"publishedAt": "Maio 2026",
+			"body": [
+				"Para viajantes de negócios, um quarto de hotel é mais do que um lugar para dormir. Deve apoiar o trabalho, o descanso e a preparação para o dia seguinte. Wi‑Fi confiável, ambiente calmo, boa iluminação e climatização são essenciais.",
+				"Segurança e conveniência são igualmente importantes. Estacionamento vigiado, serviço claro, restaurante ou bar no local e acesso rápido à cidade ajudam os hóspedes a poupar tempo e evitar stress desnecessário durante uma viagem de negócios.",
+				"O Hotel Gentleman oferece os elementos principais que os hóspedes de negócios normalmente precisam: quartos confortáveis, acesso à internet, estacionamento seguro, serviço de restaurante e uma localização tranquila perto de Ternopil."
+			]
+		},
+		"romantic-weekend-near-ternopil": {
+			"title": "Fim de semana romântico perto de Ternopil: hotel, jantar e relaxamento",
+			"summary": "Uma ideia para uma escapadinha tranquila a dois perto de Ternopil, com quarto confortável, jantar no restaurante, sauna ou hammam e ambiente calmo.",
+			"category": "Viagem",
+			"publishedAt": "Maio 2026",
+			"body": [
+				"Um fim de semana romântico nem sempre exige uma viagem longa. Às vezes, um hotel confortável perto da cidade, um bom jantar e um ambiente calmo são suficientes para criar tempo só para dois.",
+				"A melhor escapadinha curta combina prazeres simples: um quarto acolhedor, serviço de restaurante, uma noite sem pressa, sauna ou hammam e ausência de correria. Este formato funciona bem para aniversários, datas especiais ou fins de semana espontâneos.",
+				"O Hotel Gentleman perto de Ternopil oferece um ambiente conveniente para casais que querem relaxar, jantar e passar um fim de semana tranquilo num elegante complexo de hotel e restaurante."
+			]
+		}
+	},
+	"How to choose a hotel near Ternopil for a comfortable stay": "Como escolher um hotel perto de Ternopil para uma estadia confortável",
+	"A practical guide to choosing a convenient hotel near Ternopil, with attention to location, parking, rooms, restaurant service, comfort and safety.": "Um guia prático para escolher um hotel confortável perto de Ternopil, com atenção à localização, estacionamento, quartos, restaurante, conforto e segurança.",
+	"May 2026": "Maio 2026",
+	"When choosing a hotel near Ternopil, location is one of the first things to consider. A good hotel should be easy to reach, comfortable for guests arriving by car and convenient for both city visits and quiet rest outside the busy center.": "Ao escolher um hotel perto de Ternopil, a localização é uma das primeiras coisas a considerar. Um bom hotel deve ser fácil de alcançar, confortável para hóspedes que chegam de carro e adequado tanto para visitas à cidade como para descanso tranquilo fora do centro movimentado.",
+	"Comfort also depends on the details: clean rooms, reliable Wi‑Fi, air conditioning, secure parking, helpful service and access to food without needing to leave the complex. A hotel with its own restaurant and bar is especially practical for families, couples and business travelers.": "O conforto depende dos detalhes: quartos limpos, Wi‑Fi confiável, ar condicionado, estacionamento vigiado, atendimento prestativo e a possibilidade de comer sem sair do complexo. Um hotel com restaurante e bar próprios é especialmente prático para famílias, casais e viajantes de negócios.",
+	"Hotel Gentleman combines accommodation, restaurant service, parking and additional relaxation options in one place, making it a convenient choice for guests who value comfort, calm atmosphere and complete service.": "O Hotel Gentleman combina alojamento, serviço de restaurante, estacionamento e opções adicionais de relaxamento num só lugar, tornando-se uma escolha conveniente para hóspedes que valorizam conforto, ambiente calmo e serviço completo.",
+	"Sauna and hammam: the perfect way to relax after a busy week": "Sauna e hammam: a forma perfeita de relaxar depois de uma semana intensa",
+	"Discover why sauna and hammam time is ideal for recovery, calm evenings, private relaxation and a complete hotel-and-restaurant experience.": "Descubra por que sauna e hammam são ideais para recuperação, noites tranquilas, relaxamento privado e uma experiência completa de hotel e restaurante.",
+	"After a busy week, the body and mind need a simple way to slow down. A sauna or hammam can turn an ordinary evening into a full relaxation ritual with warmth, calm and time away from daily tasks.": "Depois de uma semana intensa, o corpo e a mente precisam de uma forma simples de desacelerar. Uma sauna ou hammam pode transformar uma noite comum num ritual completo de relaxamento, com calor, calma e distância das tarefas diárias.",
+	"This type of rest is especially pleasant when it is combined with a restaurant visit or a stay at the hotel. Guests can enjoy a quiet atmosphere, recover after travel or work and spend time with friends, family or a partner.": "Este tipo de descanso é especialmente agradável quando combinado com uma visita ao restaurante ou uma estadia no hotel. Os hóspedes podem desfrutar de um ambiente tranquilo, recuperar depois da viagem ou do trabalho e passar tempo com amigos, família ou parceiro.",
+	"At Hotel Gentleman, sauna and hammam services complement the hotel and restaurant experience, creating a convenient place for rest, wellness and private relaxation near Ternopil.": "No Hotel Gentleman, sauna e hammam complementam a experiência de hotel e restaurante, criando um lugar conveniente para descanso, bem-estar e relaxamento privado perto de Ternopil.",
+	"Hotel for a business trip: what every room should include": "Hotel para viagem de negócios: o que cada quarto deve incluir",
+	"A short checklist for business travelers: reliable Wi‑Fi, quiet rooms, air conditioning, guarded parking, safety, comfort and quick access to the city.": "Uma breve lista para viajantes de negócios: Wi‑Fi confiável, quartos tranquilos, ar condicionado, estacionamento vigiado, segurança, conforto e acesso rápido à cidade.",
+	"For business travelers, a hotel room is more than a place to sleep. It should support work, rest and preparation for the next day. Reliable Wi‑Fi, a calm environment, good lighting and climate control are essential.": "Para viajantes de negócios, um quarto de hotel é mais do que um lugar para dormir. Deve apoiar o trabalho, o descanso e a preparação para o dia seguinte. Wi‑Fi confiável, ambiente calmo, boa iluminação e climatização são essenciais.",
+	"Security and convenience are just as important. Guarded parking, clear service, a restaurant or bar on the territory and quick access to the city help guests save time and avoid unnecessary stress during a business trip.": "Segurança e conveniência são igualmente importantes. Estacionamento vigiado, serviço claro, restaurante ou bar no local e acesso rápido à cidade ajudam os hóspedes a poupar tempo e evitar stress desnecessário durante uma viagem de negócios.",
+	"Hotel Gentleman offers the key elements business guests usually need: comfortable rooms, internet access, secure parking, restaurant service and a quiet location near Ternopil.": "O Hotel Gentleman oferece os elementos principais que os hóspedes de negócios normalmente precisam: quartos confortáveis, acesso à internet, estacionamento seguro, serviço de restaurante e uma localização tranquila perto de Ternopil.",
+	"Romantic weekend near Ternopil: hotel, dinner and relaxation": "Fim de semana romântico perto de Ternopil: hotel, jantar e relaxamento",
+	"An idea for a calm couple’s getaway near Ternopil with a comfortable room, restaurant dinner, sauna or hammam and a peaceful atmosphere.": "Uma ideia para uma escapadinha tranquila a dois perto de Ternopil, com quarto confortável, jantar no restaurante, sauna ou hammam e ambiente calmo.",
+	"Travel": "Viagem",
+	"A romantic weekend does not always require a long trip. Sometimes a comfortable hotel near the city, a beautiful dinner and a calm atmosphere are enough to create time just for two.": "Um fim de semana romântico nem sempre exige uma viagem longa. Às vezes, um hotel confortável perto da cidade, um bom jantar e um ambiente calmo são suficientes para criar tempo só para dois.",
+	"The best short getaway combines several simple pleasures: a cozy room, restaurant service, a slow evening, sauna or hammam and no rush. This format works well for anniversaries, birthdays or spontaneous weekends.": "A melhor escapadinha curta combina prazeres simples: um quarto acolhedor, serviço de restaurante, uma noite sem pressa, sauna ou hammam e ausência de correria. Este formato funciona bem para aniversários, datas especiais ou fins de semana espontâneos.",
+	"Hotel Gentleman near Ternopil offers a convenient setting for couples who want to relax, enjoy dinner and spend a peaceful weekend in an elegant hotel-and-restaurant complex.": "O Hotel Gentleman perto de Ternopil oferece um ambiente conveniente para casais que querem relaxar, jantar e passar um fim de semana tranquilo num elegante complexo de hotel e restaurante."
 }

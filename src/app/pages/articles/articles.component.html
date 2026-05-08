@@ -60,6 +60,12 @@
 								<p class="mt-4 flex-1 text-sm leading-7 text-[var(--c-text-muted)]">
 									{{ article.summary | translate }}
 								</p>
+								<a
+									class="ui-btn ui-btn-secondary mt-5 w-fit"
+									[routerLink]="['/article', article.slug]"
+								>
+									{{ 'Open article' | translate }}
+								</a>
 							</article>
 						}
 					}

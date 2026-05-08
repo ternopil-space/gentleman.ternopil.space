@@ -1,0 +1,63 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	@if (article(); as article) {
+		<article
+			class="overflow-hidden rounded-[1.5rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
+		>
+			<header class="border-b border-[var(--c-border)] px-4 py-8 sm:px-6 lg:px-8">
+				<div class="flex flex-wrap items-center gap-3">
+					<p
+						class="inline-flex rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--c-secondary)]"
+					>
+						{{ article.category | translate }}
+					</p>
+					<p class="text-xs uppercase tracking-[0.12em] text-[var(--c-text-muted)]">
+						{{ article.publishedAt | translate }}
+					</p>
+				</div>
+
+				<h1
+					class="mt-5 max-w-[18ch] text-[2.1rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-[3rem]"
+				>
+					{{ article.title | translate }}
+				</h1>
+				<p class="mt-4 max-w-[48rem] text-sm leading-7 text-[var(--c-text-muted)] sm:text-[15px]">
+					{{ article.summary | translate }}
+				</p>
+			</header>
+
+			<div class="px-4 py-7 sm:px-6 lg:px-8">
+				<div class="max-w-[48rem] space-y-5 text-[15px] leading-8 text-[var(--c-text-primary)]">
+					@for (paragraph of body(); track paragraph) {
+						<p>{{ paragraph | translate }}</p>
+					}
+				</div>
+
+				<a class="ui-btn ui-btn-secondary mt-8 w-fit" routerLink="/articles">
+					{{ 'Articles' | translate }}
+				</a>
+			</div>
+		</article>
+	} @else {
+		<section
+			class="rounded-[1.2rem] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+		>
+			<div
+				class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+			>
+				<span class="material-symbols-outlined text-[28px]" aria-hidden="true">article</span>
+			</div>
+			<p class="mt-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+				{{ 'Articles' | translate }}
+			</p>
+			<h1 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]">
+				{{ 'No articles yet' | translate }}
+			</h1>
+			<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]">
+				{{ 'New posts are on the way' | translate }}
+			</p>
+			<a class="ui-btn ui-btn-secondary mx-auto mt-6 w-fit" routerLink="/articles">
+				{{ 'Articles' | translate }}
+			</a>
+		</section>
+	}
+</main>
