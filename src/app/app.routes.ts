@@ -140,6 +140,20 @@ export const routes: Routes = [
 			import('./pages/restaurant/restaurant.component').then((m) => m.RestaurantComponent),
 	},
 	{
+		path: 'rules',
+		data: {
+			meta: buildRouteMeta('/rules'),
+		},
+		loadComponent: () => import('./pages/rules/rules.component').then((m) => m.RulesComponent),
+	},
+	{
+		path: 'about',
+		data: {
+			meta: buildRouteMeta('/about'),
+		},
+		loadComponent: () => import('./pages/about/about.component').then((m) => m.AboutComponent),
+	},
+	{
 		path: '**',
 		redirectTo: '/',
 	},

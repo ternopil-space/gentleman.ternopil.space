@@ -28,5 +28,8 @@ export class NavigationComponent {
 
 		{ label: 'Sales', icon: 'sell', route: '/sales' },
 		{ label: 'Products', icon: 'shopping_bag', route: '/products' },
+
+		{ label: 'Hotel Rules', icon: 'gavel', route: '/rules' },
+		{ label: 'About', icon: 'info', route: '/about' },
 	];
 }

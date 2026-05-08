@@ -1,0 +1,163 @@
+<main class="mx-auto max-w-[var(--container)] space-y-4 px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+
+	<!-- Page header -->
+	<section class="overflow-hidden rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]">
+		<div class="border-b border-[var(--c-border)] px-4 py-5 sm:px-6 sm:py-6">
+			<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+				Gentleman
+			</p>
+			<h1 class="mt-2 text-[1.8rem] font-semibold leading-9 text-[var(--c-text-secondary)]">
+				{{ 'About us' | translate }}
+			</h1>
+			<p class="mt-2 max-w-[42rem] text-sm leading-6 text-[var(--c-text-muted)]">
+				{{ 'Comfortable rest, events, and European-level service in a quiet district of Ternopil — near the lake and city center.' | translate }}
+			</p>
+		</div>
+		<div class="flex flex-wrap gap-2 px-4 py-4 sm:px-6">
+			<span class="rounded-[0.6rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-3 py-1.5 text-sm text-[var(--c-text-muted)]">
+				{{ 'Family and friends rest' | translate }}
+			</span>
+			<span class="rounded-[0.6rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-3 py-1.5 text-sm text-[var(--c-text-muted)]">
+				{{ 'Weddings, banquets, and birthdays' | translate }}
+			</span>
+			<span class="rounded-[0.6rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-3 py-1.5 text-sm text-[var(--c-text-muted)]">
+				{{ 'Conferences and business meetings' | translate }}
+			</span>
+		</div>
+	</section>
+
+	<!-- Overview: images + content -->
+	<section class="overflow-hidden rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]">
+		<div class="border-b border-[var(--c-border)] px-4 py-4 sm:px-6">
+			<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">
+				{{ 'Hotel and restaurant complex «Gentleman»' | translate }}
+			</h2>
+			<p class="mt-1 text-sm leading-6 text-[var(--c-text-muted)]">
+				{{ '«Gentleman» is a modern hotel and restaurant complex combining: a hotel, restaurant, banquet halls, conference space, and a relax zone.' | translate }}
+			</p>
+		</div>
+
+		<div class="grid gap-0 lg:grid-cols-2">
+			<!-- Images column -->
+			<div class="border-b border-[var(--c-border)] p-4 lg:border-b-0 lg:border-r">
+				<div class="space-y-2">
+					<img
+						class="aspect-video w-full rounded-[0.6rem] object-cover"
+						src="https://gentleman.te.ua/wp-content/uploads/2018/10/DSC_2716-R-.jpg"
+						[attr.alt]="'Hotel and restaurant complex «Gentleman»' | translate"
+						loading="lazy"
+						width="704"
+						height="396"
+					/>
+					<div class="grid grid-cols-2 gap-2">
+						<img
+							class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
+							src="https://gentleman.te.ua/wp-content/uploads/2018/10/DSC_2596-R.jpg"
+							[attr.alt]="'Hotel and restaurant complex «Gentleman»' | translate"
+							loading="lazy"
+							width="352"
+							height="235"
+						/>
+						<img
+							class="aspect-[3/2] w-full rounded-[0.6rem] object-cover"
+							src="https://gentleman.te.ua/wp-content/uploads/2018/10/DSC_2710-R-.jpg"
+							[attr.alt]="'Hotel and restaurant complex «Gentleman»' | translate"
+							loading="lazy"
+							width="352"
+							height="235"
+						/>
+					</div>
+				</div>
+			</div>
+
+			<!-- Content column -->
+			<div class="space-y-5 p-4 sm:p-6">
+
+				<!-- Hotel -->
+				<div>
+					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+						🏨 {{ 'Hotel' | translate }}
+					</p>
+					<ul class="mt-2 space-y-1 text-sm leading-6 text-[var(--c-text-muted)]">
+						<li>— {{ '46 rooms: Standard, Semi-suite, Suite, Improved Suite' | translate }}</li>
+						<li>— {{ 'Wi-Fi, air conditioning, satellite TV' | translate }}</li>
+						<li>— {{ 'Electronic security system' | translate }}</li>
+						<li>— {{ 'Cosmetic sets' | translate }}</li>
+						<li>— <strong class="text-[var(--c-text-primary)]">{{ 'Free secured parking' | translate }}</strong></li>
+					</ul>
+				</div>
+
+				<!-- Restaurant -->
+				<div>
+					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+						🍽 {{ 'Restaurant' | translate }}
+					</p>
+					<p class="mt-1 text-sm leading-6 text-[var(--c-text-muted)]">
+						{{ 'Gentleman Restaurant — daily service and events' | translate }}
+					</p>
+					<ul class="mt-1 space-y-1 text-sm leading-6 text-[var(--c-text-muted)]">
+						<li>— {{ 'Ukrainian and European cuisine' | translate }}</li>
+						<li>— {{ 'Breakfasts, business lunches, dinners' | translate }}</li>
+						<li>— {{ 'Grill menu and elite drinks' | translate }}</li>
+						<li>— {{ 'Room service for hotel guests' | translate }}</li>
+					</ul>
+				</div>
+
+				<!-- Banquet Halls -->
+				<div>
+					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+						{{ 'Banquet Halls' | translate }}
+					</p>
+					<ul class="mt-2 space-y-1 text-sm leading-6 text-[var(--c-text-muted)]">
+						<li>— {{ '2 classic-style halls' | translate }}</li>
+						<li>— <strong class="text-[var(--c-text-primary)]">{{ 'Up to 150 guests' | translate }}</strong></li>
+						<li>— {{ 'Ideal for weddings and celebrations' | translate }}</li>
+						<li>— {{ 'Live music and atmospheric lighting' | translate }}</li>
+					</ul>
+				</div>
+
+				<!-- Events & Conferences -->
+				<div>
+					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+						🎤 {{ 'Events & Conferences' | translate }}
+					</p>
+					<ul class="mt-2 space-y-1 text-sm leading-6 text-[var(--c-text-muted)]">
+						<li>— <strong class="text-[var(--c-text-primary)]">{{ 'Conference hall up to 120 guests from 300 UAH/hour' | translate }}</strong></li>
+						<li>— {{ 'Professional sound and lighting equipment' | translate }}</li>
+						<li>— {{ 'Air conditioning' | translate }}</li>
+						<li>— {{ 'Welcome drink zone' | translate }}</li>
+						<li>— {{ 'Coffee breaks, business lunches, and dinners within budget' | translate }}</li>
+					</ul>
+				</div>
+
+				<!-- Relax Zone -->
+				<div>
+					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+						🌿 {{ 'Relax Zone' | translate }}
+					</p>
+					<ul class="mt-2 space-y-1 text-sm leading-6 text-[var(--c-text-muted)]">
+						<li>— {{ 'Finnish sauna' | translate }}</li>
+						<li>— {{ 'Traditional steam room' | translate }}</li>
+						<li>— {{ 'Hammam' | translate }}</li>
+						<li>— {{ 'Swimming pool' | translate }}</li>
+						<li>— {{ 'Summer terrace' | translate }}</li>
+						<li>— {{ 'Gazebos' | translate }}</li>
+						<li>— {{ "Children's playground" | translate }}</li>
+					</ul>
+				</div>
+
+				<!-- Our Service -->
+				<div class="border-t border-[var(--c-border)] pt-4">
+					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+						{{ 'Our Service' | translate }}
+					</p>
+					<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
+						{{ 'Our team will help organize your rest or event turnkey, thinking through every detail for maximum comfort.' | translate }}
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+</main>
