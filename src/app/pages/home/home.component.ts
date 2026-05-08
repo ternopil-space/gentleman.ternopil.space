@@ -14,37 +14,37 @@ export class HomeComponent {
 			label: 'Single',
 			price: '990 грн',
 			img: 'https://gentleman.te.ua/wp-content/uploads/2022/09/img_7716-400x400.jpg',
-			href: 'https://www.gentleman.te.ua/bronyuvannya-nomeru-v-goteli/',
+			slug: 'single',
 		},
 		{
 			label: 'Standard',
 			price: '1 250 грн',
 			img: 'https://gentleman.te.ua/wp-content/uploads/2018/10/DSC_2565-R1-c-400x400.jpg',
-			href: 'https://www.gentleman.te.ua/bronyuvannya-nomeru-v-goteli/',
+			slug: 'standard',
 		},
 		{
 			label: 'Standard Plus',
 			price: '1 350 грн',
 			img: 'https://gentleman.te.ua/wp-content/uploads/2018/10/DSC_1806-R-400x400.jpg',
-			href: 'https://www.gentleman.te.ua/bronyuvannya-nomeru-v-goteli/',
+			slug: 'standard-plus',
 		},
 		{
 			label: 'Junior Suite',
 			price: '1 650 грн',
 			img: 'https://gentleman.te.ua/wp-content/uploads/2018/10/DSC_1803-R-400x400.jpg',
-			href: 'https://www.gentleman.te.ua/bronyuvannya-nomeru-v-goteli/',
+			slug: 'junior-suite',
 		},
 		{
 			label: 'Suite',
 			price: '2 400 грн',
 			img: 'https://gentleman.te.ua/wp-content/uploads/2022/09/photo_2022-09-15_07-07-41-400x400.jpg',
-			href: 'https://www.gentleman.te.ua/bronyuvannya-nomeru-v-goteli/',
+			slug: 'suite',
 		},
 		{
 			label: 'Deluxe Suite',
 			price: '2 700 грн',
 			img: 'https://gentleman.te.ua/wp-content/uploads/2018/10/DSC_2596-R-400x400.jpg',
-			href: 'https://www.gentleman.te.ua/bronyuvannya-nomeru-v-goteli/',
+			slug: 'deluxe-suite',
 		},
 	];
 
